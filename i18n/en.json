@@ -1,0 +1,10 @@
+{
+  "@metadata": {
+    "authors": [
+      "WMDE"
+    ]
+  },
+  "moveToCommonsClient": "MoveToCommonsClient",
+  "moveToCommonsClient-desc": "Easy moving of files to Commons",
+  "moveToCommonsClient-text": "Move to Commons"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "MoveToCommonsClient",
+  "version": "0.0.1",
+  "author": [
+    "Addshore"
+  ],
+  "url": "https://www.mediawiki.org/wiki/Extension:MoveToCommons",
+  "descriptionmsg": "moveToCommonsClient-desc",
+  "license-name": "GPL-2.0+",
+  "type": "other",
+  "manifest_version": 1,
+  "MessagesDirs": {
+    "TwoColConflict": [
+      "i18n"
+    ]
+  },
+  "config" : {
+    "MoveToCommonsClientTarget" : "https://commons.wikimedia.org/wiki/Special:MoveToCommons"
+  },
+  "Hooks": {
+    "SkinTemplateNavigation": [
+      "MoveToCommonsClient\\MoveToCommonsClientHooks::onSkinTemplateNavigation"
+    ]
+  },
+  "AutoloadClasses": {
+    "MoveToCommonsClient\\MoveToCommonsClientHooks": "Hooks.php"
+  }
+}

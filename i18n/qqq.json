@@ -1,0 +1,10 @@
+{
+  "@metadata": {
+    "authors": [
+      "WMDE"
+    ]
+  },
+  "moveToCommonsClient": "MoveToCommonsClient",
+  "moveToCommonsClient-desc": "{{desc|name=MoveToCommonsClient|url=https://www.mediawiki.org/wiki/Extension:MoveToCommons}}",
+  "moveToCommonsClient-text": "Text to be displayed on a button on a File page which will take the user to the page to move a file to Commons."
+}
