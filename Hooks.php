@@ -19,7 +19,7 @@ class MoveToCommonsClientHooks {
 
 		$links['views']['moveToCommons'] = [
 			'class' => '',
-			'text' => Message::newFromKey( 'moveToCommonsClient-text' )->plain(),
+			'text' => Message::newFromKey( 'movetocommonsclient-text' )->plain(),
 			'href' => $wgMoveToCommonsClientTarget,
 		];
 	}

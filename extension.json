@@ -4,13 +4,14 @@
   "author": [
     "Addshore"
   ],
-  "url": "https://www.mediawiki.org/wiki/Extension:MoveToCommons",
-  "descriptionmsg": "moveToCommonsClient-desc",
+  "url": "https://www.mediawiki.org/wiki/Extension:MoveToCommonsClient",
+  "namemsg": "movetocommonsclient",
+  "descriptionmsg": "movetocommonsclient-desc",
   "license-name": "GPL-2.0+",
   "type": "other",
   "manifest_version": 1,
   "MessagesDirs": {
-    "TwoColConflict": [
+    "MoveToCommonsClient": [
       "i18n"
     ]
   },
