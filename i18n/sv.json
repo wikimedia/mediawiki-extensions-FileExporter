@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"movetocommonsclient": "FlyttaTillCommonsklient",
+	"movetocommonsclient-desc": "Flyttar filer till Wikimedia Commons på ett enkelt sätt",
+	"movetocommonsclient-text": "Flytta till Wikimedia Commons"
+}
