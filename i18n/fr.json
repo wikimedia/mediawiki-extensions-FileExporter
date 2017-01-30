@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"movetocommonsclient": "MoveToCommonsClient",
+	"movetocommonsclient-desc": "Déplacement facile de fichiers vers Wikimédia Communs",
+	"movetocommonsclient-text": "Déplacer vers Wikimédia Communs"
+}
