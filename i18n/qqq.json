@@ -4,7 +4,7 @@
 			"WMDE"
 		]
 	},
-	"movetocommonsclient": "MoveToCommonsClient",
-	"movetocommonsclient-desc": "{{desc|name=MoveToCommonsClient|url=https://www.mediawiki.org/wiki/Extension:MoveToCommonsClient}}",
-	"movetocommonsclient-text": "Text to be displayed on a button on a File page which will take the user to the page to move a file to Wikimedia Commons."
+	"fileexporter": "FileExporter",
+	"fileexporter-desc": "{{desc|name=FileExporter|url=https://www.mediawiki.org/wiki/Extension:FileExporter}}",
+	"fileexporter-text": "Text to be displayed on a button on a File page which will take the user to the import page on the configured wiki."
 }

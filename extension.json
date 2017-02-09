@@ -1,29 +1,29 @@
 {
-  "name": "MoveToCommonsClient",
+  "name": "FileExporter",
   "version": "0.0.1",
   "author": [
     "Addshore"
   ],
-  "url": "https://www.mediawiki.org/wiki/Extension:MoveToCommonsClient",
-  "namemsg": "movetocommonsclient",
-  "descriptionmsg": "movetocommonsclient-desc",
+  "url": "https://www.mediawiki.org/wiki/Extension:FileExporter",
+  "namemsg": "fileexporter",
+  "descriptionmsg": "fileexporter-desc",
   "license-name": "GPL-2.0+",
   "type": "other",
   "manifest_version": 1,
   "MessagesDirs": {
-    "MoveToCommonsClient": [
+    "FileExporter": [
       "i18n"
     ]
   },
   "config" : {
-    "MoveToCommonsClientTarget" : "https://commons.wikimedia.org/wiki/Special:MoveToCommons"
+    "FileExporterTarget" : "https://commons.wikimedia.org/wiki/Special:ImportFile"
   },
   "Hooks": {
     "SkinTemplateNavigation": [
-      "MoveToCommonsClient\\MoveToCommonsClientHooks::onSkinTemplateNavigation"
+      "FileExporter\\FileExporterHooks::onSkinTemplateNavigation"
     ]
   },
   "AutoloadClasses": {
-    "MoveToCommonsClient\\MoveToCommonsClientHooks": "Hooks.php"
+    "FileExporter\\FileExporterHooks": "Hooks.php"
   }
 }

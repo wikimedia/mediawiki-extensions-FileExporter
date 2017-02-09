@@ -4,7 +4,7 @@
       "WMDE"
     ]
   },
-  "movetocommonsclient": "MoveToCommonsClient",
-  "movetocommonsclient-desc": "Easy moving of files to Wikimedia Commons",
-  "movetocommonsclient-text": "Move to Wikimedia Commons"
+  "fileexporter": "FileExporter",
+  "fileexporter-desc": "Easy exporting of files to another wiki",
+  "fileexporter-text": "Export file"
 }

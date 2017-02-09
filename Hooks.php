@@ -1,6 +1,6 @@
 <?php
 
-namespace MoveToCommonsClient;
+namespace FileExporter;
 
 use Message;
 use SkinTemplate;
@@ -8,19 +8,19 @@ use SkinTemplate;
 /**
  * @author Addshore
  */
-class MoveToCommonsClientHooks {
+class FileExporterHooks {
 
 	public static function onSkinTemplateNavigation( SkinTemplate &$sktemplate, array &$links ) {
-		global $wgMoveToCommonsClientTarget;
+		global $wgFileExporterTarget;
 
 		if ( $sktemplate->getTitle()->getNamespace() !== NS_FILE ) {
 			return;
 		}
 
-		$links['views']['moveToCommons'] = [
+		$links['views']['fileExporter'] = [
 			'class' => '',
-			'text' => Message::newFromKey( 'movetocommonsclient-text' )->plain(),
-			'href' => $wgMoveToCommonsClientTarget,
+			'text' => Message::newFromKey( 'fileexporter-text' )->plain(),
+			'href' => $wgFileExporterTarget,
 		];
 	}
 
