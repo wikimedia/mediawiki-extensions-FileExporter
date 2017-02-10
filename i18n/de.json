@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"fileexporter": "Dateiexporteur",
+	"fileexporter-desc": "Einfaches Exportieren von Dateien in ein anderes Wiki",
+	"fileexporter-text": "Datei exportieren"
+}
