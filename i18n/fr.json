@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wladek92"
+		]
+	},
+	"fileexporter": "FileExporter",
+	"fileexporter-desc": "Exportation facile des fichiers vers un autre wiki",
+	"fileexporter-text": "Exporter un fichier"
+}

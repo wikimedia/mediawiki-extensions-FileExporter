@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"fileexporter": "文件导出器",
+	"fileexporter-desc": "轻松将文件导出到其他wiki",
+	"fileexporter-text": "导出文件"
+}
