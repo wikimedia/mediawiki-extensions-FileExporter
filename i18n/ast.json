@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"fileexporter": "FileExporter",
+	"fileexporter-desc": "Esportación cenciella de ficheros a otra wiki",
+	"fileexporter-text": "Esportar ficheru"
+}

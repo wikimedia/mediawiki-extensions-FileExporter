@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"fileexporter": "Filexporterare",
+	"fileexporter-desc": "Enkel exportering av filer till en annan wiki",
+	"fileexporter-text": "Exportera fil"
+}
