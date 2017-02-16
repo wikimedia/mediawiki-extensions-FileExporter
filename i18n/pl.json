@@ -4,5 +4,7 @@
 			"Chrumps"
 		]
 	},
+	"fileexporter": "FileExporter",
+	"fileexporter-desc": "Łatwe eksportowanie plików do innej wiki",
 	"fileexporter-text": "Eksport pliku"
 }
