@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz",
+			"Macofe"
+		]
+	},
+	"fileexporter": "Exportador de archivos",
+	"fileexporter-desc": "Exportación sencilla de archivos a otro wiki",
+	"fileexporter-text": "Exportar archivo"
+}
