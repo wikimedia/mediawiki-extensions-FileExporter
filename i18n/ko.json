@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"SeoJeongHo"
+			"SeoJeongHo",
+			"Ykhwong"
 		]
 	},
+	"fileexporter-desc": "다른 위키로 파일 쉽게 내보내기",
 	"fileexporter-text": "파일 내보내기"
 }
