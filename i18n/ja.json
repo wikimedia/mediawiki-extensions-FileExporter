@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Otokoume"
+		]
+	},
+	"fileexporter": "FileExporter",
+	"fileexporter-desc": "ファイルを別のウィキに、容易にエクスポートする",
+	"fileexporter-text": "ファイルをエクスポート"
+}
