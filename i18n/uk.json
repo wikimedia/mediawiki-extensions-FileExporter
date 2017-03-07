@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"fileexporter": "Експортер файлів",
+	"fileexporter-desc": "Легке експортування файлів до іншої вікі",
+	"fileexporter-text": "Експортувати файл"
+}
