@@ -1,10 +1,10 @@
 {
-  "@metadata": {
-    "authors": [
-      "WMDE"
-    ]
-  },
-  "fileexporter": "FileExporter",
-  "fileexporter-desc": "Easy exporting of files to another wiki",
-  "fileexporter-text": "Export file"
+	"@metadata": {
+		"authors": [
+			"WMDE"
+		]
+	},
+	"fileexporter": "FileExporter",
+	"fileexporter-desc": "Easy exporting of files to another wiki",
+	"fileexporter-text": "Export file"
 }

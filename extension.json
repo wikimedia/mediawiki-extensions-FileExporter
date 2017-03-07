@@ -1,29 +1,29 @@
 {
-  "name": "FileExporter",
-  "version": "0.0.1",
-  "author": [
-    "Addshore"
-  ],
-  "url": "https://www.mediawiki.org/wiki/Extension:FileExporter",
-  "namemsg": "fileexporter",
-  "descriptionmsg": "fileexporter-desc",
-  "license-name": "GPL-2.0+",
-  "type": "other",
-  "manifest_version": 1,
-  "MessagesDirs": {
-    "FileExporter": [
-      "i18n"
-    ]
-  },
-  "config" : {
-    "FileExporterTarget" : "https://commons.wikimedia.org/wiki/Special:ImportFile"
-  },
-  "Hooks": {
-    "SkinTemplateNavigation": [
-      "FileExporter\\FileExporterHooks::onSkinTemplateNavigation"
-    ]
-  },
-  "AutoloadClasses": {
-    "FileExporter\\FileExporterHooks": "Hooks.php"
-  }
+	"name": "FileExporter",
+	"version": "0.0.1",
+	"author": [
+		"Addshore"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:FileExporter",
+	"namemsg": "fileexporter",
+	"descriptionmsg": "fileexporter-desc",
+	"license-name": "GPL-2.0+",
+	"type": "other",
+	"manifest_version": 1,
+	"MessagesDirs": {
+		"FileExporter": [
+			"i18n"
+		]
+	},
+	"config": {
+		"FileExporterTarget": "https://commons.wikimedia.org/wiki/Special:ImportFile"
+	},
+	"Hooks": {
+		"SkinTemplateNavigation": [
+			"FileExporter\\FileExporterHooks::onSkinTemplateNavigation"
+		]
+	},
+	"AutoloadClasses": {
+		"FileExporter\\FileExporterHooks": "Hooks.php"
+	}
 }
