@@ -13,7 +13,10 @@ class FileExporterHooks {
 	public static function onSkinTemplateNavigation( SkinTemplate &$sktemplate, array &$links ) {
 		global $wgFileExporterTarget;
 
-		if ( $sktemplate->getTitle()->getNamespace() !== NS_FILE ) {
+		if (
+			$sktemplate->getTitle()->getNamespace() !== NS_FILE ||
+			$sktemplate->getUser()->isNewbie()
+		) {
 			return;
 		}
 
