@@ -24,6 +24,7 @@ class FileExporterHooks {
 			'class' => '',
 			'text' => Message::newFromKey( 'fileexporter-text' )->plain(),
 			'href' => $wgFileExporterTarget,
+			'target' => '_blank',
 		];
 	}
 
