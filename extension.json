@@ -16,6 +16,7 @@
 		]
 	},
 	"config": {
+		"@FileExporterTarget": "The Special:ImportFile page on the target wiki, as provided by the FileImporter extension.",
 		"FileExporterTarget": "https://commons.wikimedia.org/wiki/Special:ImportFile"
 	},
 	"Hooks": {
