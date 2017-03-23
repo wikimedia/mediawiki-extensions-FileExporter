@@ -25,10 +25,21 @@ class FileExporterHooks {
 			return;
 		}
 
+		$parsedUrl = wfParseUrl( $wgFileExporterTarget );
+		$currentUrl = $sktemplate->getTitle()->getFullURL();
+
+		if ( array_key_exists( 'query', $parsedUrl ) ) {
+			$parsedUrl['query'] .= '&clientUrl=' . urlencode( $currentUrl );
+		} else {
+			$parsedUrl['query'] = 'clientUrl=' . urlencode( $currentUrl );
+		}
+
+		$targetUrl = wfAssembleUrl( $parsedUrl );
+
 		$links['views']['fileExporter'] = [
 			'class' => '',
 			'text' => Message::newFromKey( 'fileexporter-text' )->plain(),
-			'href' => $wgFileExporterTarget,
+			'href' => $targetUrl,
 			'target' => '_blank',
 		];
 	}
