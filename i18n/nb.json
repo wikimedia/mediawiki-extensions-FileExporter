@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"fileexporter": "Fileksportering",
+	"fileexporter-desc": "Enkel eksportering av filer til en annen wiki",
+	"fileexporter-text": "Eksporter fil"
+}
