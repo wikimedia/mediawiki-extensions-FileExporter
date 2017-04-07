@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Banjo"
+			"Banjo",
+			"Elisardojm"
 		]
 	},
+	"fileexporter": "Exportador de ficheiros",
+	"fileexporter-desc": "Exportación sinxela de ficheiros a outro wiki",
 	"fileexporter-text": "Exportar ficheiro"
 }
