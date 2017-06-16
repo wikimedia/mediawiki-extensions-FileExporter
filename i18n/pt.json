@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"fileexporter": "Exportador de ficheiros",
+	"fileexporter-desc": "Exportação fácil de ficheiros para outra wiki",
+	"fileexporter-text": "Exportar ficheiro"
+}
