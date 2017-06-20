@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm"
+		]
+	},
+	"fileexporter": "FileExporter",
+	"fileexporter-desc": "Лёгкий экспорт файлов на другую вики",
+	"fileexporter-text": "Экспортировать файл"
+}
