@@ -5,6 +5,9 @@ namespace FileExporter;
 use Message;
 use SkinTemplate;
 use WikiFilePage;
+use MediaWiki\MediaWikiServices;
+use User;
+use BetaFeatures;
 
 /**
  * @author Addshore
@@ -12,7 +15,22 @@ use WikiFilePage;
 class FileExporterHooks {
 
 	public static function onSkinTemplateNavigation( SkinTemplate &$sktemplate, array &$links ) {
+		global $wgUser;
 		global $wgFileExporterTarget;
+
+		$config = MediaWikiServices::getInstance()->getMainConfig();
+
+		/**
+		* If this extension is configured to be a beta feature, and the BetaFeatures extension
+		* is loaded then require the current user to have the feature enabled.
+		*/
+		if (
+			$config->get( 'FileExporterBetaFeature' ) &&
+			class_exists( BetaFeatures::class ) &&
+			!BetaFeatures::isFeatureEnabled( $wgUser, 'fileexporter' )
+		) {
+			return;
+		}
 
 		$title = $sktemplate->getTitle();
 		$page = new WikiFilePage( $title );
@@ -42,6 +60,19 @@ class FileExporterHooks {
 			'href' => $targetUrl,
 			'target' => '_blank',
 		];
+	}
+
+	public static function getBetaFeaturePreferences( User $user, array &$prefs ) {
+		$config = MediaWikiServices::getInstance()->getMainConfig();
+
+		if ( $config->get( 'FileExporterBetaFeature' ) ) {
+			$prefs[ 'fileexporter' ] = [
+				'label-message' => 'fileexporter-beta-feature-message',
+				'desc-message' => 'fileexporter-beta-feature-description',
+				'info-link' => 'https://www.mediawiki.org/wiki/Extension:FileExporter',
+				'discussion-link' => 'https://www.mediawiki.org/wiki/Extension_talk:FileExporter',
+			];
+		}
 	}
 
 }
