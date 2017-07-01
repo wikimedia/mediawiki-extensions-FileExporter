@@ -6,5 +6,7 @@
 	},
 	"fileexporter": "Извезувач на податотеки",
 	"fileexporter-desc": "Лесен извоз на податотеки на друго вики",
-	"fileexporter-text": "Извези податотека"
+	"fileexporter-text": "Извези податотека",
+	"fileexporter-beta-feature-message": "Извезувач на податотеки",
+	"fileexporter-beta-feature-description": "Овозможува леснен извоз на податотеки на друго вики."
 }
