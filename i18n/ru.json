@@ -6,5 +6,7 @@
 	},
 	"fileexporter": "FileExporter",
 	"fileexporter-desc": "Лёгкий экспорт файлов на другую вики",
-	"fileexporter-text": "Экспортировать файл"
+	"fileexporter-text": "Экспортировать файл",
+	"fileexporter-beta-feature-message": "FileExporter",
+	"fileexporter-beta-feature-description": "Позволяет легко экспортировать файлы в другую вики."
 }

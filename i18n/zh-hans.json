@@ -6,5 +6,7 @@
 	},
 	"fileexporter": "文件导出器",
 	"fileexporter-desc": "轻松将文件导出到其他wiki",
-	"fileexporter-text": "导出文件"
+	"fileexporter-text": "导出文件",
+	"fileexporter-beta-feature-message": "文件浏览器",
+	"fileexporter-beta-feature-description": "允许轻松导出文件到其他wiki。"
 }

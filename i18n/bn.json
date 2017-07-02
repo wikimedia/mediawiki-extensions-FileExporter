@@ -7,5 +7,6 @@
 	},
 	"fileexporter": "ফাইল রপ্তানিকারক",
 	"fileexporter-desc": "অন্য একটি উইকিতে ফাইল সহজে রপ্তানি করা",
-	"fileexporter-text": "ফাইল রপ্তানি"
+	"fileexporter-text": "ফাইল রপ্তানি",
+	"fileexporter-beta-feature-message": "ফাইল রপ্তানিকারক"
 }
