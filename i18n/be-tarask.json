@@ -6,5 +6,6 @@
 	},
 	"fileexporter": "Экспартавальнік файлаў",
 	"fileexporter-desc": "Лёгкі экспарт файлаў у іншую вікі",
-	"fileexporter-text": "Экспарт файлу"
+	"fileexporter-text": "Экспарт файлу",
+	"fileexporter-beta-feature-message": "Экспартавальнік файлаў"
 }
