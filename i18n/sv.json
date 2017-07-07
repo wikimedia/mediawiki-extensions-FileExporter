@@ -6,5 +6,6 @@
 	},
 	"fileexporter": "Filexporterare",
 	"fileexporter-desc": "Enkel exportering av filer till en annan wiki",
-	"fileexporter-text": "Exportera fil"
+	"fileexporter-text": "Exportera fil",
+	"fileexporter-beta-feature-message": "Filexporterare"
 }
