@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Piramidion"
+			"Piramidion",
+			"SimondR"
 		]
 	},
 	"fileexporter": "Експортер файлів",
 	"fileexporter-desc": "Легке експортування файлів до іншої вікі",
-	"fileexporter-text": "Експортувати файл"
+	"fileexporter-text": "Експортувати файл",
+	"fileexporter-beta-feature-message": "Експортер файлів"
 }
