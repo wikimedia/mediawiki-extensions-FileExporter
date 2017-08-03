@@ -7,5 +7,6 @@
 	},
 	"fileexporter": "Exportador de ficheiros",
 	"fileexporter-desc": "Exportación sinxela de ficheiros a outro wiki",
-	"fileexporter-text": "Exportar ficheiro"
+	"fileexporter-text": "Exportar ficheiro",
+	"fileexporter-beta-feature-message": "Exportador de ficheiros"
 }
