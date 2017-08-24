@@ -8,5 +8,6 @@
 	"fileexporter": "Exportador de ficheiros",
 	"fileexporter-desc": "Exportación sinxela de ficheiros a outro wiki",
 	"fileexporter-text": "Exportar ficheiro",
-	"fileexporter-beta-feature-message": "Exportador de ficheiros"
+	"fileexporter-beta-feature-message": "Exportador de ficheiros",
+	"fileexporter-beta-feature-description": "Permite exportar ficheiros a outra wiki de forma sinxela."
 }
