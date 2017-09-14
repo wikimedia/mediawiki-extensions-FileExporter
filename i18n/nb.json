@@ -6,5 +6,7 @@
 	},
 	"fileexporter": "Fileksportering",
 	"fileexporter-desc": "Enkel eksportering av filer til en annen wiki",
-	"fileexporter-text": "Eksporter fil"
+	"fileexporter-text": "Eksporter fil",
+	"fileexporter-beta-feature-message": "Fileksportering",
+	"fileexporter-beta-feature-description": "Gjør det mulig å enkelt eksportere filer til en annen wiki."
 }
