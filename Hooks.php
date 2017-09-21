@@ -64,11 +64,13 @@ class FileExporterHooks {
 
 	public static function getBetaFeaturePreferences( User $user, array &$prefs ) {
 		$config = MediaWikiServices::getInstance()->getMainConfig();
+		$extensionAssetsPath = $config->get( 'ExtensionAssetsPath' );
 
 		if ( $config->get( 'FileExporterBetaFeature' ) ) {
 			$prefs[ 'fileexporter' ] = [
 				'label-message' => 'fileexporter-beta-feature-message',
 				'desc-message' => 'fileexporter-beta-feature-description',
+				'screenshot' => "$extensionAssetsPath/FileExporter/resources/FileExporter-beta-features.svg",
 				'info-link' => 'https://www.mediawiki.org/wiki/Extension:FileExporter',
 				'discussion-link' => 'https://www.mediawiki.org/wiki/Extension_talk:FileExporter',
 			];
