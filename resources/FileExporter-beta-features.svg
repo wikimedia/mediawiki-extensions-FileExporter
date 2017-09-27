@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" width="264" height="162" viewBox="0 0 264 162">
+    <style id="style4137">
+        .st0{fill:#fff}.st1,.st2{fill:#e5e5e5}.st2{stroke:#e5e5e5}.st3{fill:#36c}.st4{fill:#fff;stroke-width:1.651}.st4,.st5,.st6{stroke:#36c}.st5{fill:#36c;stroke-width:1.8986}.st6{fill:#e5e5e5;stroke-width:1.651}.st7{fill:#36c;stroke:#a2a9b1;stroke-width:1.7997}.st8,.st9{fill:#36c;stroke:#fff;stroke-width:1.0271}.st9{stroke:#36c}
+    </style>
+    <path id="background" d="M264 162l-264-.5V.5h264z" fill="#fff"/>
+    <path d="M0 0v1h107v151.03l-8 6V42.008H59v112.021l-3.3-2.8-.6-.5-.6.4-6.5 4.6V42.009H.94v1H.124v110.263l1.678-1.273L15.765 162l12.783-10.002L41.331 162 47 157.725v.004l8.1-5.7 4.9 4.2V43.01h38v116.92l10-7.402V0z" id="path4141" fill="#e5e5e5" stroke-width=".4"/>
+    <path class="st1" d="M98 159.9V43H60v113.2l7.6 5.8 13.8-10 13.9 10 2.7-2.1z" id="path4147" fill="#e5e5e5"/>
+    <path d="M0 25.2V151h99V25.2H0z" id="path4149" fill="#e5e5e5"/>
+    <path class="st1" d="M76.5 5h26v6h-26V5z" id="path4151" fill="#e5e5e5"/>
+    <g id="g4153" transform="translate(-156)">
+        <path id="r" class="st1" fill="#e5e5e5" d="M208.5 5h22v6h-22z"/>
+    </g>
+    <g id="g4167" transform="matrix(2.13636 0 0 1 -325.432 0)">
+        <path id="r_4_" class="st1" d="M153.5 5h22v6h-22z" fill="#e5e5e5"/>
+    </g>
+    <path class="st2" d="M1.563 14.499h104" id="path4173" fill="#e5e5e5" stroke="#e5e5e5" stroke-width=".998"/>
+    <g id="g4240" transform="translate(-2.616 15.55) scale(4.9086)" fill-opacity=".933" fill="#a2a9b1">
+        <g id="image">
+            <path id="mountains" class="st3" d="M17.2 16.4l-3-3-2 1-3-3-4 5h12zm2-11v13h-16v-13h16z"/>
+        </g>
+    </g>
+    <path id="rect4244" class="st4" fill="#fff" stroke="#36c" stroke-width="1.651" d="M14.1 111.1h76.4v13.7H14.1z"/>
+    <path id="rect4246" class="st5" fill="#36c" stroke="#36c" stroke-width="1.899" d="M14.17 131.3h18.2V142h-18.2z"/>
+    <path id="rect4246-3" class="st6" fill="#e5e5e5" stroke="#36c" stroke-width="1.651" d="M38.27 131.5h18.1v10.6h-18.1z"/>
+    <path id="rect4263" class="st7" fill="#36c" stroke="#a2a9b1" stroke-width="1.8" d="M19.6 118.5h63v.4h-63z"/>
+    <path id="rect4263-6" class="st8" fill="#36c" stroke="#fff" stroke-width="1.027" d="M17.97 136.3h10.9v.8h-10.9z"/>
+    <path id="rect4263-6-7" class="st9" fill="#36c" stroke="#36c" stroke-width="1.027" d="M41.97 136.5h10.9v.8h-10.9z"/>
+    <path class="st1" id="polygon4190" transform="translate(-156)" fill="#e5e5e5" d="M204 150.7v5l7.1-4.9z"/>
+    <path class="st1" id="polygon4192" transform="translate(-156)" fill="#e5e5e5" d="M216 151l.2 4.6-5.1-4.8z"/>
+    <path d="M120 0v152l13.114 10 11.254-10 13.604 10 9.98-8.4V43H263v-1h-96.026v111.1l-9.1 7.7-13.016-9.599-.587-.5-.587.5-10.667 9.5-12.038-9.2V1H263V0H120z" id="path4141-6" fill="#e5e5e5"/>
+    <path d="M160.457 25.201v125.8h9v2.599l2.102-1.6 12.6 10 13.798-10 14.201 10 13-10 13 10 13.799-10 12.102 10-.059-1.617V25.201z" id="path4143-7" fill="#e5e5e5"/>
+    <path class="st1" d="M127.458 36.413c0-7.7 6.3-14 14-14s14 6.3 14 14-6.3 14-14 14-14-6.3-14-14z" id="path4145-5" fill="#e5e5e5"/>
+    <path class="st1" d="M259 6v4h-92V6h92m1-1h-94v6h94V5z" id="path4156-1" fill="#e5e5e5"/>
+    <g id="g4170-2" transform="translate(120.458)">
+        <path id="r_5_-6" class="st1" d="M9 5h22v6H9z" fill="#e5e5e5"/>
+    </g>
+    <path class="st2" d="M122 14.5h141" id="path4173-1" fill="#e5e5e5" stroke="#e5e5e5" stroke-width=".998"/>
+    <path d="M129.457 54.412v96.44l-.012 7.474 4.414 3.404 11.155-9.742 9.44 6.463v-6.838h.003v-97.2h-25z" id="path4175-8" fill="#e5e5e5"/>
+    <path class="st3" d="M95.113 84.747h39.624v15.879l28.261-23.891-28.261-23.891v15.879h-22.58s-6.118-.729-11.8 4.37c-5.68 5.098-5.244 11.654-5.244 11.654z" id="path4205" fill="#36c"/>
+    <g id="g4240-7" transform="translate(151.842 15.963) scale(4.9086)">
+        <g id="image-9">
+            <path id="mountains-2" class="st3" d="M17.2 16.4l-3-3-2 1-3-3-4 5h12zm2-11v13h-16v-13h16z" fill="#36c"/>
+        </g>
+    </g>
+    <path id="rect4244-5" class="st4" fill="#fff" stroke="#36c" stroke-width="1.651" d="M168.558 111.513h76.4v13.7h-76.4z"/>
+    <path id="rect4246-9" class="st5" fill="#36c" stroke="#36c" stroke-width="1.899" d="M168.628 131.713h18.2v10.7h-18.2z"/>
+    <path id="rect4246-3-2" class="st6" fill="#e5e5e5" stroke="#36c" stroke-width="1.651" d="M192.728 131.913h18.1v10.6h-18.1z"/>
+    <path id="rect4263-2" class="st7" fill="#36c" stroke="#a2a9b1" stroke-width="1.8" d="M174.058 118.913h63v.4h-63z"/>
+    <path id="rect4263-6-8" class="st8" fill="#36c" stroke="#fff" stroke-width="1.027" d="M172.428 136.713h10.9v.8h-10.9z"/>
+    <path id="rect4263-6-7-9" class="st9" fill="#36c" stroke="#36c" stroke-width="1.027" d="M196.428 136.913h10.9v.8h-10.9z"/>
+    <path d="M160.43 149.798l.02 10.196 14.519-10.208z" id="path4333" fill="#e5e5e5" fill-rule="evenodd"/>
+    <path class="st2" d="M.45 0l.1 152" id="path4173-6" fill="#e5e5e5" stroke="#e5e5e5" stroke-width=".874"/>
+    <path class="st2" d="M263.45 0l.1 162" id="path4173-6-7" fill="#e5e5e5" stroke="#e5e5e5" stroke-width=".901"/>
+    <path class="st2" d="M38 .499h105" id="path4173-3" fill="#e5e5e5" stroke="#e5e5e5" stroke-width="1.003"/>
+</svg>
