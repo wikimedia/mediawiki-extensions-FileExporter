@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Dgstranz",
-			"Macofe"
+			"Macofe",
+			"Fitoschido"
 		]
 	},
 	"fileexporter": "Exportador de archivos",
 	"fileexporter-desc": "Exportación sencilla de archivos a otro wiki",
-	"fileexporter-text": "Exportar archivo"
+	"fileexporter-text": "Exportar archivo",
+	"fileexporter-beta-feature-description": "Permite exportar archivos a otro wiki de manera sencilla."
 }
