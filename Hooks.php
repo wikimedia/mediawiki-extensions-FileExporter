@@ -52,6 +52,10 @@ class FileExporterHooks {
 			$parsedUrl['query'] = 'clientUrl=' . urlencode( $currentUrl );
 		}
 
+		// Add another URL parameter in order to be able to track hits to the import special page
+		// coming directly from the exporter.
+		$parsedUrl['query'] .= '&importSource=FileExporter';
+
 		$targetUrl = wfAssembleUrl( $parsedUrl );
 
 		$links['views']['fileExporter'] = [
