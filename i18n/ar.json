@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aboulouei1"
+			"Aboulouei1",
+			"ديفيد"
 		]
 	},
 	"fileexporter": "مصدّر ملفات",
 	"fileexporter-desc": "من السهل تصدير الملفات إلى ويكي آخر",
-	"fileexporter-text": "استيراد ملف"
+	"fileexporter-text": "استيراد ملف",
+	"fileexporter-beta-feature-message": "مصدر الملفات",
+	"fileexporter-beta-feature-description": "يتيح سهولة تصدير الملفات إلى ويكي آخر."
 }
