@@ -10,11 +10,16 @@ use User;
 use BetaFeatures;
 
 /**
+ * @license GPL-2.0-or-later
  * @author Addshore
  */
 class FileExporterHooks {
 
-	public static function onSkinTemplateNavigation( SkinTemplate &$sktemplate, array &$links ) {
+	/**
+	 * @param SkinTemplate $skinTemplate
+	 * @param array[] &$links
+	 */
+	public static function onSkinTemplateNavigation( SkinTemplate $skinTemplate, array &$links ) {
 		global $wgUser;
 		global $wgFileExporterTarget;
 
@@ -32,19 +37,19 @@ class FileExporterHooks {
 			return;
 		}
 
-		$title = $sktemplate->getTitle();
+		$title = $skinTemplate->getTitle();
 		$page = new WikiFilePage( $title );
 
 		if (
 			$title->getNamespace() !== NS_FILE ||
 			!$page->isLocal() ||
-			$sktemplate->getUser()->isNewbie()
+			$skinTemplate->getUser()->isNewbie()
 		) {
 			return;
 		}
 
 		$parsedUrl = wfParseUrl( $wgFileExporterTarget );
-		$currentUrl = $sktemplate->getTitle()->getFullURL();
+		$currentUrl = $skinTemplate->getTitle()->getFullURL();
 
 		if ( array_key_exists( 'query', $parsedUrl ) ) {
 			$parsedUrl['query'] .= '&clientUrl=' . urlencode( $currentUrl );
@@ -66,6 +71,10 @@ class FileExporterHooks {
 		];
 	}
 
+	/**
+	 * @param User $user
+	 * @param array[] &$prefs
+	 */
 	public static function getBetaFeaturePreferences( User $user, array &$prefs ) {
 		$config = MediaWikiServices::getInstance()->getMainConfig();
 		$extensionAssetsPath = $config->get( 'ExtensionAssetsPath' );

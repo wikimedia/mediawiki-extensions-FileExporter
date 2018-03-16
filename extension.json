@@ -30,6 +30,6 @@
 		]
 	},
 	"AutoloadClasses": {
-		"FileExporter\\FileExporterHooks": "Hooks.php"
+		"FileExporter\\FileExporterHooks": "FileExporterHooks.php"
 	}
 }
