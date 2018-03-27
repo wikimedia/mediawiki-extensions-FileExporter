@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Guycn2"
 		]
 	},
+	"fileexporter": "מייצא קבצים",
 	"fileexporter-desc": "ייצוא קל של קבצים לוויקי אחר",
 	"fileexporter-text": "ייצוא קובץ",
 	"fileexporter-beta-feature-message": "מייצא קבצים",
