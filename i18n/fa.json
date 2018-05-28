@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ladsgroup"
+		]
+	},
+	"fileexporter": "برون‌ریز پرونده",
+	"fileexporter-desc": "راه ساده برای برون‌ریزی پرونده‌ها به یک ویکی دیگر",
+	"fileexporter-text": "برون‌ریزی پرونده",
+	"fileexporter-beta-feature-message": "برون‌ریز پرونده",
+	"fileexporter-beta-feature-description": "اجازه برون‌ریزی ساده به یک ویکی دیگر را می‌دهد."
+}
