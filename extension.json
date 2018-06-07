@@ -26,7 +26,7 @@
 			"FileExporter\\FileExporterHooks::onSkinTemplateNavigation"
 		],
 		"GetBetaFeaturePreferences": [
-			"FileExporter\\FileExporterHooks::getBetaFeaturePreferences"
+			"FileExporter\\FileExporterHooks::onGetBetaFeaturePreferences"
 		]
 	},
 	"AutoloadClasses": {
