@@ -86,8 +86,8 @@ class FileExporterHooks {
 				'label-message' => 'fileexporter-beta-feature-message',
 				'desc-message' => 'fileexporter-beta-feature-description',
 				'screenshot' => "$extensionAssetsPath/FileExporter/resources/FileExporter-beta-features.svg",
-				'info-link' => 'https://www.mediawiki.org/wiki/Extension:FileExporter',
-				'discussion-link' => 'https://www.mediawiki.org/wiki/Extension_talk:FileExporter',
+				'info-link' => 'https://www.mediawiki.org/wiki/Help:Extension:FileImporter',
+				'discussion-link' => 'https://www.mediawiki.org/wiki/Help_talk:Extension:FileImporter',
 			];
 		}
 	}
