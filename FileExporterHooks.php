@@ -79,7 +79,9 @@ class FileExporterHooks {
 		$config = MediaWikiServices::getInstance()->getMainConfig();
 		$extensionAssetsPath = $config->get( 'ExtensionAssetsPath' );
 
-		if ( $config->get( 'FileExporterBetaFeature' ) ) {
+		if ( $config->get( 'FileExporterBetaFeature' )
+			&& !$user->isNewbie()
+		) {
 			$prefs[ 'fileexporter' ] = [
 				'label-message' => 'fileexporter-beta-feature-message',
 				'desc-message' => 'fileexporter-beta-feature-description',
