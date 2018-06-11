@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"fileexporter": "檔案匯出器",
+	"fileexporter-desc": "輕鬆匯出檔案至其它 wiki",
+	"fileexporter-text": "匯出檔案",
+	"fileexporter-beta-feature-message": "檔案匯出器",
+	"fileexporter-beta-feature-description": "允許來輕鬆匯出檔案至其它 wiki。"
+}
