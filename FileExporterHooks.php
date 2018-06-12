@@ -48,18 +48,14 @@ class FileExporterHooks {
 		}
 
 		$parsedUrl = wfParseUrl( $config->get( 'FileExporterTarget' ) );
-		$currentUrl = $skinTemplate->getTitle()->getFullURL();
-
-		if ( array_key_exists( 'query', $parsedUrl ) ) {
-			$parsedUrl['query'] .= '&clientUrl=' . urlencode( $currentUrl );
-		} else {
-			$parsedUrl['query'] = 'clientUrl=' . urlencode( $currentUrl );
-		}
+		$query = isset( $parsedUrl['query'] ) ? [ $parsedUrl['query'] ] : [];
+		$query[] = 'clientUrl=' . urlencode( $skinTemplate->getTitle()->getFullURL() );
 
 		// Add another URL parameter in order to be able to track hits to the import special page
 		// coming directly from the exporter.
-		$parsedUrl['query'] .= '&importSource=FileExporter';
+		$query[] = 'importSource=FileExporter';
 
+		$parsedUrl['query'] = implode( '&', $query );
 		$targetUrl = wfAssembleUrl( $parsedUrl );
 
 		$links['views']['fileExporter'] = [
