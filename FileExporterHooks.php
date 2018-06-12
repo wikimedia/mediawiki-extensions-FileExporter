@@ -80,8 +80,7 @@ class FileExporterHooks {
 		if ( $host === 'commons.wikimedia.org' ) {
 			$msg = 'fileexporter-to-wikimedia-commons';
 		} elseif ( strpos( $host, '.beta.wmflabs.org' ) > 0
-			|| strpos( $host, 'test.' ) === 0
-			|| strpos( $host, 'test2.' ) === 0
+			|| preg_match( '/^test\d*\./i', $host )
 		) {
 			$msg = 'fileexporter-to-test';
 		} else {
