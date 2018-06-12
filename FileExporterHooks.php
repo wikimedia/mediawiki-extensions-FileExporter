@@ -21,7 +21,6 @@ class FileExporterHooks {
 	 */
 	public static function onSkinTemplateNavigation( SkinTemplate $skinTemplate, array &$links ) {
 		global $wgUser;
-		global $wgFileExporterTarget;
 
 		$config = MediaWikiServices::getInstance()->getMainConfig();
 
@@ -48,7 +47,7 @@ class FileExporterHooks {
 			return;
 		}
 
-		$parsedUrl = wfParseUrl( $wgFileExporterTarget );
+		$parsedUrl = wfParseUrl( $config->get( 'FileExporterTarget' ) );
 		$currentUrl = $skinTemplate->getTitle()->getFullURL();
 
 		if ( array_key_exists( 'query', $parsedUrl ) ) {
