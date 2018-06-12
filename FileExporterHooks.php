@@ -2,6 +2,7 @@
 
 namespace FileExporter;
 
+use ExtensionRegistry;
 use Message;
 use SkinTemplate;
 use WikiFilePage;
@@ -30,7 +31,7 @@ class FileExporterHooks {
 		*/
 		if (
 			$config->get( 'FileExporterBetaFeature' ) &&
-			class_exists( BetaFeatures::class ) &&
+			ExtensionRegistry::getInstance()->isLoaded( 'BetaFeatures' ) &&
 			!BetaFeatures::isFeatureEnabled( $wgUser, 'fileexporter' )
 		) {
 			return;
