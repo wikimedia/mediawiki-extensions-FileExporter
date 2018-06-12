@@ -8,6 +8,8 @@
 	"fileexporter": "{{name}}",
 	"fileexporter-desc": "{{desc|name=FileExporter|url=https://www.mediawiki.org/wiki/Extension:FileExporter}}",
 	"fileexporter-text": "Text to be displayed on a button on a File page which will take the user to the import page on the configured wiki.",
+	"fileexporter-to-wikimedia-commons": "Text to be displayed on a button on a File page which will take the user to the import page on Wikimedia Commons.",
+	"fileexporter-to-test": "Text to be displayed on a button on a File page which will take the user to the import page on the Test Wiki.",
 	"fileexporter-beta-feature-message": "Label for the FileExporter Beta Feature.",
 	"fileexporter-beta-feature-description": "Description for the FileExporter Beta Feature, describing the feature that will be enabled."
 }

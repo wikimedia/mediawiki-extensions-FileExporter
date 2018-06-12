@@ -64,10 +64,30 @@ class FileExporterHooks {
 
 		$links['views']['fileExporter'] = [
 			'class' => '',
-			'text' => Message::newFromKey( 'fileexporter-text' )->plain(),
+			'text' => self::getExportButtonLabel( $parsedUrl['host'] ),
 			'href' => $targetUrl,
 			'target' => '_blank',
 		];
+	}
+
+	/**
+	 * @param string $host
+	 *
+	 * @return string
+	 */
+	private static function getExportButtonLabel( $host ) {
+		if ( $host === 'commons.wikimedia.org' ) {
+			$msg = 'fileexporter-to-wikimedia-commons';
+		} elseif ( strpos( $host, '.beta.wmflabs.org' ) > 0
+			|| strpos( $host, 'test.' ) === 0
+			|| strpos( $host, 'test2.' ) === 0
+		) {
+			$msg = 'fileexporter-to-test';
+		} else {
+			$msg = 'fileexporter-text';
+		}
+
+		return Message::newFromKey( $msg )->plain();
 	}
 
 	/**
