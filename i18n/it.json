@@ -4,5 +4,11 @@
 			"Beta16"
 		]
 	},
-	"fileexporter-text": "Esporta file"
+	"fileexporter": "FileExporter",
+	"fileexporter-desc": "Esporta facilmente file su un altro wiki",
+	"fileexporter-text": "Esporta file",
+	"fileexporter-to-wikimedia-commons": "Esporta su Wikimedia Commons",
+	"fileexporter-to-test": "Esporta su Test Wiki",
+	"fileexporter-beta-feature-message": "FileExporter",
+	"fileexporter-beta-feature-description": "Permette di esportare facilmente i file su un altro wiki."
 }

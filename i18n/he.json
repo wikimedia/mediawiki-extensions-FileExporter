@@ -8,6 +8,8 @@
 	"fileexporter": "מייצא קבצים",
 	"fileexporter-desc": "ייצוא קל של קבצים לוויקי אחר",
 	"fileexporter-text": "ייצוא קובץ",
+	"fileexporter-to-wikimedia-commons": "ייצוא לוויקישיתוף",
+	"fileexporter-to-test": "ייצוא לאתר ויקי של בדיקות (Test Wiki)",
 	"fileexporter-beta-feature-message": "מייצא קבצים",
 	"fileexporter-beta-feature-description": "מאפשר ייצוא קל של קבצים לוויקי אחר."
 }

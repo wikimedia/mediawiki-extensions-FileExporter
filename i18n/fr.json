@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wladek92"
+			"Wladek92",
+			"Gomoko"
 		]
 	},
 	"fileexporter": "FileExporter",
 	"fileexporter-desc": "Exportation facile des fichiers vers un autre wiki",
 	"fileexporter-text": "Exporter un fichier",
+	"fileexporter-to-wikimedia-commons": "Exporter vers Wikimédia Communs",
+	"fileexporter-to-test": "Exporter vers Wiki Test",
 	"fileexporter-beta-feature-message": "FileExporter",
 	"fileexporter-beta-feature-description": "Permet d'exporter facilement des fichiers vers un autre wiki."
 }
