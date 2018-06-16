@@ -6,5 +6,6 @@
 	},
 	"fileexporter": "FileExporter",
 	"fileexporter-desc": "Łatwe eksportowanie plików do innej wiki",
-	"fileexporter-text": "Eksport pliku"
+	"fileexporter-text": "Eksport pliku",
+	"fileexporter-to-wikimedia-commons": "Eksportuj do Wikimedia Commons"
 }
