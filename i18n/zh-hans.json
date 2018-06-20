@@ -10,5 +10,5 @@
 	"fileexporter-to-wikimedia-commons": "导出至维基共享资源",
 	"fileexporter-to-test": "导出至测试Wiki",
 	"fileexporter-beta-feature-message": "文件浏览器",
-	"fileexporter-beta-feature-description": "允许轻松导出文件到其他wiki。"
+	"fileexporter-beta-feature-description": "允许轻松导出文件到维基共享资源。"
 }
