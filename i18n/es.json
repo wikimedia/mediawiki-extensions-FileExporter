@@ -3,11 +3,12 @@
 		"authors": [
 			"Dgstranz",
 			"Macofe",
-			"Fitoschido"
+			"Fitoschido",
+			"MarcoAurelio"
 		]
 	},
 	"fileexporter": "Exportador de archivos",
 	"fileexporter-desc": "Exportación sencilla de archivos a otro wiki",
 	"fileexporter-text": "Exportar archivo",
-	"fileexporter-beta-feature-description": "Permite exportar archivos a otro wiki de manera sencilla."
+	"fileexporter-beta-feature-description": "Permite exportar archivos a Wikimedia Commons de manera sencilla."
 }
