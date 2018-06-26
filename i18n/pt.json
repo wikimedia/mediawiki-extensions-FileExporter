@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
 		]
 	},
 	"fileexporter": "Exportador de ficheiros",
@@ -10,5 +11,5 @@
 	"fileexporter-to-wikimedia-commons": "Exportar para a wiki Wikimedia Commons",
 	"fileexporter-to-test": "Exportar para a wiki Test Wiki",
 	"fileexporter-beta-feature-message": "Exportador de ficheiros",
-	"fileexporter-beta-feature-description": "Permite a exportação fácil de ficheiros para outra wiki."
+	"fileexporter-beta-feature-description": "Permite a exportação fácil de ficheiros para o Wikimedia Commons."
 }
