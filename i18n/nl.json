@@ -4,5 +4,9 @@
 			"Mainframe98"
 		]
 	},
-	"fileexporter-text": "Bestand exporteren"
+	"fileexporter-desc": "Eenvoudig bestanden naar een andere wiki exporteren",
+	"fileexporter-text": "Bestand exporteren",
+	"fileexporter-to-wikimedia-commons": "Naar Wikimedia Commons exporteren",
+	"fileexporter-to-test": "Naar Test Wiki exporteren",
+	"fileexporter-beta-feature-description": "Voegt een optie toe om eenvoudig bestanden naar Wikimedia Commons te exporteren."
 }
