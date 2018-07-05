@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Piramidion",
-			"SimondR"
+			"SimondR",
+			"Ата"
 		]
 	},
 	"fileexporter": "Експортер файлів",
 	"fileexporter-desc": "Легке експортування файлів до іншої вікі",
 	"fileexporter-text": "Експортувати файл",
 	"fileexporter-beta-feature-message": "Експортер файлів",
-	"fileexporter-beta-feature-description": "Дає змогу з легкістю експортувати файли в іншу вікі."
+	"fileexporter-beta-feature-description": "Дає змогу з легкістю експортувати файли у Вікісховище."
 }
