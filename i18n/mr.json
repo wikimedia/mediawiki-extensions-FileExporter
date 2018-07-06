@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tiven2240"
+		]
+	},
+	"fileexporter": "फाईल निर्यातक",
+	"fileexporter-desc": "अन्य विकिवर फाईल्स सहजपणे निर्यात करणे",
+	"fileexporter-text": "फाईल निर्यात करा",
+	"fileexporter-to-wikimedia-commons": "विकिमीडिया कॉमन्सवर निर्यात करा",
+	"fileexporter-to-test": "चाचणी विपीवर निर्यात करा",
+	"fileexporter-beta-feature-message": "फाईल निर्यातक",
+	"fileexporter-beta-feature-description": "विकिमीडिया कॉमन्सवर फायलींची सुलभ निर्यात करण्याची अनुमती देते."
+}
