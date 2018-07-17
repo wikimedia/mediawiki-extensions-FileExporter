@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Janezdrilc"
+		]
+	},
+	"fileexporter": "Izvoznik datotek",
+	"fileexporter-desc": "Enostavno izvažanje datotek v drug wiki",
+	"fileexporter-text": "Izvozi datoteko",
+	"fileexporter-to-wikimedia-commons": "Izvozi v Wikimedijino zbirko",
+	"fileexporter-to-test": "Izvozi v Testno Wikipedijo",
+	"fileexporter-beta-feature-message": "Izvoznik datotek",
+	"fileexporter-beta-feature-description": "Omogoča preprosto izvažanje datotek v Wikimedijino zbirko."
+}
