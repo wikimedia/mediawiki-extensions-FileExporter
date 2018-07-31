@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"fileexporter-desc": "Failide lihtne eksport teise vikisse",
+	"fileexporter-text": "Ekspordi fail",
+	"fileexporter-to-wikimedia-commons": "Ekspordi Wikimedia Commonsisse",
+	"fileexporter-beta-feature-description": "Võimaldab faile lihtsasti Wikimedia Commonsisse eksportida."
+}
