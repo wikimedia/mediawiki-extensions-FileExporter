@@ -34,6 +34,6 @@
 		]
 	},
 	"AutoloadClasses": {
-		"FileExporter\\FileExporterHooks": "FileExporterHooks.php"
+		"FileExporter\\FileExporterHooks": "src/FileExporterHooks.php"
 	}
 }
