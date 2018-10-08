@@ -5,6 +5,7 @@
 			"Ykhwong"
 		]
 	},
+	"fileexporter": "FileExporter",
 	"fileexporter-desc": "다른 위키로 파일 쉽게 내보내기",
 	"fileexporter-text": "파일 내보내기",
 	"fileexporter-to-wikimedia-commons": "위키미디어 공용으로 내보내기",
