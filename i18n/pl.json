@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"Railfail536"
 		]
 	},
 	"fileexporter": "FileExporter",
 	"fileexporter-desc": "Łatwe eksportowanie plików do innej wiki",
 	"fileexporter-text": "Eksport pliku",
-	"fileexporter-to-wikimedia-commons": "Eksportuj do Wikimedia Commons"
+	"fileexporter-to-wikimedia-commons": "Eksportuj do Wikimedia Commons",
+	"fileexporter-beta-feature-message": "Eksporter plików",
+	"fileexporter-beta-feature-description": "Umożliwia prosty eksport plików do Wikimedia Commons."
 }
