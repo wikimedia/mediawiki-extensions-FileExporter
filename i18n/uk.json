@@ -9,6 +9,8 @@
 	"fileexporter": "Експортер файлів",
 	"fileexporter-desc": "Легке експортування файлів до іншої вікі",
 	"fileexporter-text": "Експортувати файл",
+	"fileexporter-to-wikimedia-commons": "Експортувати до Вікісховища",
+	"fileexporter-to-test": "Експорт до тестової вікі",
 	"fileexporter-beta-feature-message": "Експортер файлів",
 	"fileexporter-beta-feature-description": "Дає змогу з легкістю експортувати файли у Вікісховище."
 }
