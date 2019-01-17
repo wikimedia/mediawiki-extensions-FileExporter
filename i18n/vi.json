@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vinhtantran"
+		]
+	},
+	"fileexporter": "Bộ xuất tập tin",
+	"fileexporter-desc": "Dễ dàng xuất tập tin sang wiki khác",
+	"fileexporter-text": "Xuất tập tin",
+	"fileexporter-to-wikimedia-commons": "Xuất sang Wikimedia Commons",
+	"fileexporter-to-test": "Xuất sang Wiki Thử nghiệm",
+	"fileexporter-beta-feature-message": "Bộ xuất tập tin",
+	"fileexporter-beta-feature-description": "Cho phép xuất tập tin sang Wikimedia Commons một cách dễ dàng."
+}

@@ -8,8 +8,9 @@
 	},
 	"fileexporter": "ফাইল রপ্তানিকারক",
 	"fileexporter-desc": "অন্য একটি উইকিতে ফাইল সহজে রপ্তানি করা",
-	"fileexporter-text": "ফাইল রপ্তানি",
+	"fileexporter-text": "ফাইল রপ্তানি করুন",
 	"fileexporter-to-wikimedia-commons": "উইকিমিডিয়া কমন্সে রপ্তানি করুন",
 	"fileexporter-to-test": "পরীক্ষা উইকিতে রপ্তানি করুন",
-	"fileexporter-beta-feature-message": "ফাইল রপ্তানিকারক"
+	"fileexporter-beta-feature-message": "ফাইল রপ্তানিকারক",
+	"fileexporter-beta-feature-description": "উইকিমিডিয়া কমন্সে ফাইলসমূহ সহজে রপ্তানি করার অনুমতি দেয়।"
 }

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda"
+		]
+	},
+	"fileexporter": "DosyaAktarıcı",
+	"fileexporter-desc": "Dosyaların başka bir viki'ye kolayca aktarılmasını sağlar",
+	"fileexporter-text": "Dosyayı aktar",
+	"fileexporter-to-wikimedia-commons": "Wikimedia Commons'a aktar",
+	"fileexporter-to-test": "Test Wiki'ya aktar",
+	"fileexporter-beta-feature-message": "DosyaAktarıcı",
+	"fileexporter-beta-feature-description": "Dosyaların Wikimedia Commons'a kolayca aktarılmasını sağlar."
+}

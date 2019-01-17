@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Njardarlogar"
+		]
+	},
+	"fileexporter": "Fileksportør",
+	"fileexporter-desc": "Enkel eksportering av filer til ein annan wiki",
+	"fileexporter-to-wikimedia-commons": "Eksporter til Wikimedia Commons",
+	"fileexporter-to-test": "Eksporter til Test Wiki",
+	"fileexporter-beta-feature-message": "Fileksportør"
+}
