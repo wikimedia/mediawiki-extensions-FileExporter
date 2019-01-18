@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kly"
+			"Kly",
+			"WQL"
 		]
 	},
 	"fileexporter": "檔案匯出器",
@@ -10,5 +11,5 @@
 	"fileexporter-to-wikimedia-commons": "匯出至維基共享資源",
 	"fileexporter-to-test": "匯出至測試 Wiki",
 	"fileexporter-beta-feature-message": "檔案匯出器",
-	"fileexporter-beta-feature-description": "允許來輕鬆匯出檔案至其它維基共享資源。"
+	"fileexporter-beta-feature-description": "允許來輕鬆匯出檔案至維基共享資源。"
 }
