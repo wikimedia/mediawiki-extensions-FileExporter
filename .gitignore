@@ -1,5 +1,5 @@
 .idea/
-/tests/phan/issues
+tests/phan/issues/
 node_modules/
 vendor/
 composer.lock
@@ -23,4 +23,3 @@ project.index
 ## Sublime
 sublime-*
 sftp-config.json
-tests/phan/issues
