@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Otokoume"
+			"Otokoume",
+			"Shirayuki"
 		]
 	},
 	"fileexporter": "FileExporter",
 	"fileexporter-desc": "ファイルを別のウィキに、容易にエクスポートする",
 	"fileexporter-text": "ファイルをエクスポート",
 	"fileexporter-beta-feature-message": "FileExporter",
-	"fileexporter-beta-feature-description": "他のウィキへのファイルのエクスポートを容易に実現する。"
+	"fileexporter-beta-feature-description": "ファイルをウィキメディア・コモンズへ容易にエクスポートできるようにします。"
 }
