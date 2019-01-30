@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog"
+		]
+	},
+	"fileexporter": "Извозник датотека",
+	"fileexporter-desc": "Једноставан извоз датотека на други вики",
+	"fileexporter-text": "Извоз датотеке",
+	"fileexporter-to-wikimedia-commons": "Извоз на Викимедијину оставу",
+	"fileexporter-to-test": "Извоз на Тестни вики",
+	"fileexporter-beta-feature-message": "Извозник датотека",
+	"fileexporter-beta-feature-description": "Омогућава једноставан извоз датотека на Викимедијину оставу."
+}
