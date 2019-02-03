@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Aboulouei1",
-			"ديفيد"
+			"ديفيد",
+			"Meno25"
 		]
 	},
-	"fileexporter": "مصدّر ملفات",
+	"fileexporter": "مصدر الملفات",
 	"fileexporter-desc": "من السهل تصدير الملفات إلى ويكي آخر",
 	"fileexporter-text": "استيراد ملف",
 	"fileexporter-to-wikimedia-commons": "تصدير إلى ويكيميديا ​​كومنز",
