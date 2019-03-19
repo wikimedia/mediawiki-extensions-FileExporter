@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"ShockD"
+			"ShockD",
+			"StanProg"
 		]
 	},
+	"fileexporter-desc": "Лесно изнасяне на файлове към друго уики",
+	"fileexporter-text": "Изнасяне на файл",
+	"fileexporter-to-wikimedia-commons": "Изнасяне към Общомедия",
+	"fileexporter-to-test": "Изнасяне към тестово уики",
 	"fileexporter-beta-feature-description": "Позволява лесно пренасяне на файлове към Общомедия."
 }
