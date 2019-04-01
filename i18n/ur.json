@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"BukhariSaeed"
+		]
+	},
+	"fileexporter": "فائل برآمد کنندہ",
+	"fileexporter-desc": "دوسرے ویکی میں فائلوں کو برآمد کرنے میں آسانی",
+	"fileexporter-text": "فائل برآمد کریں",
+	"fileexporter-to-wikimedia-commons": "ویکیمیڈیا کامنز پر برآمد",
+	"fileexporter-to-test": "تجرباتی ویکی پر برآمد",
+	"fileexporter-beta-feature-message": "فائل برآمد کنندہ",
+	"fileexporter-beta-feature-description": "ویکیمیڈیا کامنز پر فائلوں کو باآسانی برآمد کرنے کے لیے مدد گار"
+}
