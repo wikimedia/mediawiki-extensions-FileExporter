@@ -14,6 +14,9 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
 	"manifest_version": 1,
+	"requires": {
+		"MediaWiki": ">= 1.27.0"
+	},
 	"MessagesDirs": {
 		"FileExporter": [
 			"i18n"
