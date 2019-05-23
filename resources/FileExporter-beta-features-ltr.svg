@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="264" height="162" viewBox="0 0 264 162">
+    <path fill="#fff" d="M264 162l-264-.5V.5h264z"/>
+    <path fill="#e5e5e5" d="M0 0v1h107v151.03l-8 6V42.008H59v112.021l-3.3-2.8-.6-.5-.6.4-6.5 4.6V42.009H.94v1H.124v110.263l1.678-1.273L15.765 162l12.783-10.002L41.331 162 47 157.725v.004l8.1-5.7 4.9 4.2V43.01h38v116.92l10-7.402V0z"/>
+    <path fill="#e5e5e5" d="M98 159.9V43H60v113.2l7.6 5.8 13.8-10 13.9 10 2.7-2.1z" class="st1"/>
+    <path fill="#e5e5e5" d="M0 25.2V151h99V25.2H0z"/>
+    <path fill="#e5e5e5" d="M76.5 5h26v6h-26V5zM52.5 5h22v6h-22zM2.5 5h47v6h-47z" class="st1"/>
+    <path fill="#e5e5e5" stroke="#e5e5e5" stroke-width=".998" d="M1.563 14.499h104" class="st2"/>
+    <path fill="#a2a9b1" fill-opacity=".933" d="M81.812 96.051L67.086 81.325l-9.817 4.909-14.726-14.726L22.91 96.051h58.903zm9.817-53.995v63.812H13.092V42.056h78.537z" class="st3"/>
+    <path fill="#fff" stroke="#36c" stroke-width="1.651" d="M14.1 111.1h76.4v13.7H14.1z" class="st4"/>
+    <path fill="#36c" stroke="#36c" stroke-width="1.899" d="M14.17 131.3h18.2V142h-18.2z" class="st5"/>
+    <path fill="#e5e5e5" stroke="#36c" stroke-width="1.651" d="M38.27 131.5h18.1v10.6h-18.1z" class="st6"/>
+    <path fill="#36c" stroke="#a2a9b1" stroke-width="1.8" d="M19.6 118.5h63v.4h-63z" class="st7"/>
+    <path fill="#36c" stroke="#fff" stroke-width="1.027" d="M17.97 136.3h10.9v.8h-10.9z" class="st8"/>
+    <path fill="#36c" stroke="#36c" stroke-width="1.027" d="M41.97 136.5h10.9v.8h-10.9z" class="st9"/>
+    <path fill="#e5e5e5" d="M48 150.7v5l7.1-4.9zM60 151l.2 4.6-5.1-4.8z" class="st1"/>
+    <path fill="#e5e5e5" d="M120 0v152l13.114 10 11.254-10 13.604 10 9.98-8.4V43H263v-1h-96.026v111.1l-9.1 7.7-13.016-9.599-.587-.5-.587.5-10.667 9.5-12.038-9.2V1H263V0H120z"/>
+    <path fill="#e5e5e5" d="M160.457 25.201v125.8h9v2.599l2.102-1.6 12.6 10 13.798-10 14.201 10 13-10 13 10 13.799-10 12.102 10-.059-1.617V25.201z"/>
+    <path fill="#e5e5e5" d="M127.458 36.413c0-7.7 6.3-14 14-14s14 6.3 14 14-6.3 14-14 14-14-6.3-14-14zM259 6v4h-92V6h92m1-1h-94v6h94V5zM129.458 5h22v6h-22z" class="st1"/>
+    <path fill="#e5e5e5" stroke="#e5e5e5" stroke-width=".998" d="M122 14.5h141" class="st2"/>
+    <path fill="#e5e5e5" d="M129.457 54.412v96.44l-.012 7.474 4.414 3.404 11.155-9.742 9.44 6.463v-6.838h.003v-97.2h-25z"/>
+    <path fill="#36c" d="M95.113 84.747h39.624v15.879l28.261-23.891-28.261-23.891v15.879h-22.58s-6.118-.729-11.8 4.37c-5.68 5.098-5.244 11.654-5.244 11.654zM236.27 96.464l-14.726-14.726-9.817 4.909L197 71.92l-19.634 24.543h58.903zm9.817-53.995v63.812H167.55V42.47h78.537z" class="st3"/>
+    <path fill="#fff" stroke="#36c" stroke-width="1.651" d="M168.558 111.513h76.4v13.7h-76.4z" class="st4"/>
+    <path fill="#36c" stroke="#36c" stroke-width="1.899" d="M168.628 131.713h18.2v10.7h-18.2z" class="st5"/>
+    <path fill="#e5e5e5" stroke="#36c" stroke-width="1.651" d="M192.728 131.913h18.1v10.6h-18.1z" class="st6"/>
+    <path fill="#36c" stroke="#a2a9b1" stroke-width="1.8" d="M174.058 118.913h63v.4h-63z" class="st7"/>
+    <path fill="#36c" stroke="#fff" stroke-width="1.027" d="M172.428 136.713h10.9v.8h-10.9z" class="st8"/>
+    <path fill="#36c" stroke="#36c" stroke-width="1.027" d="M196.428 136.913h10.9v.8h-10.9z" class="st9"/>
+    <path fill="#e5e5e5" fill-rule="evenodd" d="M160.43 149.798l.02 10.196 14.519-10.208z"/>
+    <path fill="#e5e5e5" stroke="#e5e5e5" stroke-width=".874" d="M.45 0l.1 152" class="st2"/>
+    <path fill="#e5e5e5" stroke="#e5e5e5" stroke-width=".901" d="M263.45 0l.1 162" class="st2"/>
+    <path fill="#e5e5e5" stroke="#e5e5e5" stroke-width="1.003" d="M38 .499h105" class="st2"/>
+</svg>

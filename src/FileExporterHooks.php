@@ -100,7 +100,10 @@ class FileExporterHooks {
 			$prefs[ 'fileexporter' ] = [
 				'label-message' => 'fileexporter-beta-feature-message',
 				'desc-message' => 'fileexporter-beta-feature-description',
-				'screenshot' => "$extensionAssetsPath/FileExporter/resources/FileExporter-beta-features.svg",
+				'screenshot' => [
+					'ltr' => "$extensionAssetsPath/FileExporter/resources/FileExporter-beta-features-ltr.svg",
+					'rtl' => "$extensionAssetsPath/FileExporter/resources/FileExporter-beta-features-rtl.svg",
+				],
 				'info-link' => 'https://www.mediawiki.org/wiki/Help:Extension:FileImporter',
 				'discussion-link' => 'https://www.mediawiki.org/wiki/Help_talk:Extension:FileImporter',
 			];
