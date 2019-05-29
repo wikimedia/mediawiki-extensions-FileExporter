@@ -42,6 +42,7 @@ class FileExporterHooks {
 
 		if (
 			$title->getNamespace() !== NS_FILE ||
+			!$title->exists() ||
 			!$page->isLocal() ||
 			$skinTemplate->getUser()->isNewbie()
 		) {
