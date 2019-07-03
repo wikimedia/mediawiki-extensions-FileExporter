@@ -10,5 +10,8 @@
 	"fileexporter": "Exportador de archivos",
 	"fileexporter-desc": "Exportación sencilla de archivos a otro wiki",
 	"fileexporter-text": "Exportar archivo",
+	"fileexporter-to-wikimedia-commons": "Exportar a Wikimedia Commons",
+	"fileexporter-to-test": "Exportar a Test Wiki",
+	"fileexporter-beta-feature-message": "Exportador de archivos",
 	"fileexporter-beta-feature-description": "Permite exportar archivos a Wikimedia Commons de manera sencilla."
 }
