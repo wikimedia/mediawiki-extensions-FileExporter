@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"fileexporter": "Izvoznik datoteka",
+	"fileexporter-desc": "Lagan izvoz datoteka na drugi wiki",
+	"fileexporter-text": "Izvezi datoteku",
+	"fileexporter-to-wikimedia-commons": "Izvezi na Wikimedijinu ostavu",
+	"fileexporter-to-test": "Izvezi na Testni Wiki",
+	"fileexporter-beta-feature-message": "Izvoznik datoteka",
+	"fileexporter-beta-feature-description": "Omogućava lagan izvoz datoteka i njihovo prenesivanje na Wikimedijinu ostavu."
+}
