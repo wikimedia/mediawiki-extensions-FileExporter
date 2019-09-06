@@ -21,9 +21,8 @@ class FileExporterHooks {
 	 * @param array[] &$links
 	 */
 	public static function onSkinTemplateNavigation( SkinTemplate $skinTemplate, array &$links ) {
-		global $wgUser;
-
-		$config = MediaWikiServices::getInstance()->getMainConfig();
+		$config = $skinTemplate->getConfig();
+		$user = $skinTemplate->getUser();
 
 		/**
 		* If this extension is configured to be a beta feature, and the BetaFeatures extension
@@ -32,7 +31,7 @@ class FileExporterHooks {
 		if (
 			$config->get( 'FileExporterBetaFeature' ) &&
 			ExtensionRegistry::getInstance()->isLoaded( 'BetaFeatures' ) &&
-			!BetaFeatures::isFeatureEnabled( $wgUser, 'fileexporter' )
+			!BetaFeatures::isFeatureEnabled( $user, 'fileexporter' )
 		) {
 			return;
 		}
@@ -44,7 +43,7 @@ class FileExporterHooks {
 			$title->getNamespace() !== NS_FILE ||
 			!$title->exists() ||
 			!$page->isLocal() ||
-			$skinTemplate->getUser()->isNewbie()
+			$user->isNewbie()
 		) {
 			return;
 		}
