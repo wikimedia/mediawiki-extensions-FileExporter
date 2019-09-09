@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mikel Ibaiba"
+			"Mikel Ibaiba",
+			"An13sa"
 		]
 	},
 	"fileexporter-beta-feature-message": "ArtxiboEsportatzailea",
-	"fileexporter-beta-feature-description": "Artxiboak beste wikira esportatze erreza baimentzen du."
+	"fileexporter-beta-feature-description": "Fitxategiak Wikimedia Commonsera erraz esportatzea baimentzen du."
 }
