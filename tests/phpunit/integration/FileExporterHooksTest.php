@@ -15,8 +15,6 @@ use User;
  * @coversDefaultClass \FileExporter\FileExporterHooks
  */
 class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
-	use \PHPUnit4And6Compat;
-
 	/**
 	 * @covers ::onSkinTemplateNavigation
 	 */
