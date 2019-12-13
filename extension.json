@@ -35,12 +35,8 @@
 		}
 	},
 	"Hooks": {
-		"SkinTemplateNavigation": [
-			"FileExporter\\FileExporterHooks::onSkinTemplateNavigation"
-		],
-		"GetBetaFeaturePreferences": [
-			"FileExporter\\FileExporterHooks::onGetBetaFeaturePreferences"
-		]
+		"SkinTemplateNavigation": "FileExporter\\FileExporterHooks::onSkinTemplateNavigation",
+		"GetBetaFeaturePreferences": "FileExporter\\FileExporterHooks::onGetBetaFeaturePreferences"
 	},
 	"AutoloadClasses": {
 		"FileExporter\\FileExporterHooks": "src/FileExporterHooks.php"
