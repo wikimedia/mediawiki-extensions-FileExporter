@@ -2,13 +2,13 @@
 
 namespace FileExporter;
 
+use BetaFeatures;
 use ExtensionRegistry;
+use MediaWiki\MediaWikiServices;
 use Message;
 use SkinTemplate;
-use WikiFilePage;
-use MediaWiki\MediaWikiServices;
 use User;
-use BetaFeatures;
+use WikiFilePage;
 
 /**
  * @license GPL-2.0-or-later
@@ -25,9 +25,9 @@ class FileExporterHooks {
 		$user = $skinTemplate->getUser();
 
 		/**
-		* If this extension is configured to be a beta feature, and the BetaFeatures extension
-		* is loaded then require the current user to have the feature enabled.
-		*/
+		 * If this extension is configured to be a beta feature, and the BetaFeatures extension
+		 * is loaded then require the current user to have the feature enabled.
+		 */
 		if (
 			$config->get( 'FileExporterBetaFeature' ) &&
 			ExtensionRegistry::getInstance()->isLoaded( 'BetaFeatures' ) &&
