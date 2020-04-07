@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wladek92",
-			"Gomoko",
 			"EnderHero",
-			"The RedBurn"
+			"Gomoko",
+			"The RedBurn",
+			"Wladek92"
 		]
 	},
 	"fileexporter": "FileExporter",
