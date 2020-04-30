@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bugoslav"
+			"Bugoslav",
+			"MaGa"
 		]
 	},
 	"fileexporter": "Datotečni izvoznik",
 	"fileexporter-desc": "Lagan izvoz datoteka na drugi wiki",
 	"fileexporter-text": "Izvezi datoteku",
-	"fileexporter-to-wikimedia-commons": "Izvezi na Zajednički poslužitelj Wikimedije",
+	"fileexporter-to-wikimedia-commons": "Izvezi na Zajednički poslužitelj",
 	"fileexporter-to-test": "Izvezi na Testni Wiki",
 	"fileexporter-beta-feature-message": "Datotečni izvoznik",
-	"fileexporter-beta-feature-description": "Omogućava lagano izvoženje datoteka na Zajednički poslužitelj Wikimedije"
+	"fileexporter-beta-feature-description": "Omogućava jednostavno izvoženje datoteka na Zajednički poslužitelj."
 }
