@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Johanna Strodt (WMDE)",
+			"Kghbln",
 			"Metalhead64"
 		]
 	},
 	"fileexporter": "Dateiexporteur",
-	"fileexporter-desc": "Einfacher Export von Dateien in ein anderes Wiki",
+	"fileexporter-desc": "Ermöglicht einen einfachen Export von Dateien in ein anderes Wiki",
 	"fileexporter-text": "Datei exportieren",
 	"fileexporter-to-wikimedia-commons": "Nach Wikimedia Commons exportieren",
 	"fileexporter-to-test": "Ins Testwiki exportieren",
