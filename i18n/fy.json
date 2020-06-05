@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"PiefPafPier"
+		]
+	},
+	"fileexporter": "Bestâneksportearder",
+	"fileexporter-desc": "It noflik eksportearjen fan bestannen nei in oare wiki",
+	"fileexporter-text": "Bestân eksportearje",
+	"fileexporter-to-wikimedia-commons": "Eksportearje nei Wikimedia Commons",
+	"fileexporter-to-test": "Eksportearje nei Test-wiki",
+	"fileexporter-beta-feature-message": "Bestâneksportearder",
+	"fileexporter-beta-feature-description": "It noflik eksportearjen fan bestannen nei Wikimedia Commons mooglik meitsje."
+}
