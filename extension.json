@@ -34,7 +34,7 @@
 		}
 	},
 	"Hooks": {
-		"SkinTemplateNavigation": "FileExporter\\FileExporterHooks::onSkinTemplateNavigation",
+		"SkinTemplateNavigation::Universal": "FileExporter\\FileExporterHooks::onSkinTemplateNavigation",
 		"GetBetaFeaturePreferences": "FileExporter\\FileExporterHooks::onGetBetaFeaturePreferences"
 	},
 	"AutoloadNamespaces": {

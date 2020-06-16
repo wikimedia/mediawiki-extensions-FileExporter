@@ -21,8 +21,10 @@ class FileExporterHooks {
 	 * @param array[] &$links
 	 */
 	public static function onSkinTemplateNavigation( SkinTemplate $skinTemplate, array &$links ) {
-		$config = $skinTemplate->getConfig();
-		$user = $skinTemplate->getUser();
+		$context = $skinTemplate->getContext();
+		$config = $context->getConfig();
+		$user = $context->getUser();
+		$title = $context->getTitle();
 
 		/**
 		 * If this extension is configured to be a beta feature, and the BetaFeatures extension
@@ -36,21 +38,22 @@ class FileExporterHooks {
 			return;
 		}
 
-		$title = $skinTemplate->getTitle();
-		$page = new WikiFilePage( $title );
-
-		if (
+		if ( !$title ||
 			$title->getNamespace() !== NS_FILE ||
 			!$title->exists() ||
-			!$page->isLocal() ||
 			$user->isNewbie()
 		) {
 			return;
 		}
 
+		$page = new WikiFilePage( $title );
+		if ( !$page->isLocal() ) {
+			return;
+		}
+
 		$parsedUrl = wfParseUrl( $config->get( 'FileExporterTarget' ) );
 		$query = wfCgiToArray( $parsedUrl['query'] ?? '' );
-		$query['clientUrl'] = $skinTemplate->getTitle()->getFullURL( '', false, PROTO_CANONICAL );
+		$query['clientUrl'] = $title->getFullURL( '', false, PROTO_CANONICAL );
 
 		// Add another URL parameter in order to be able to track hits to the import special page
 		// coming directly from the exporter.
