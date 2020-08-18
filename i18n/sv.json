@@ -1,11 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Sabelöga",
 			"WikiPhoenix"
 		]
 	},
 	"fileexporter": "Filexporterare",
 	"fileexporter-desc": "Enkel exportering av filer till en annan wiki",
 	"fileexporter-text": "Exportera fil",
-	"fileexporter-beta-feature-message": "Filexporterare"
+	"fileexporter-to-wikimedia-commons": "Exportera till Wikimedia Commons",
+	"fileexporter-to-test": "Exportera till TestWiki",
+	"fileexporter-beta-feature-message": "Filexporterare",
+	"fileexporter-beta-feature-description": "Gör det möjligt att enkelt exportera filer till Wikimedia Commons."
 }
