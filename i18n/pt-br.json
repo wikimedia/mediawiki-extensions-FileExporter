@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Eduardo Addad de Oliveira",
-			"Pedrofariasm"
+			"Pedrofariasm",
+			"Stanglavine"
 		]
 	},
 	"fileexporter": "Exportador de arquivos",
 	"fileexporter-desc": "Exportação fácil de arquivos para outra wiki",
 	"fileexporter-text": "Exportar arquivo",
-	"fileexporter-to-wikimedia-commons": "Exportar para a wiki Wikimedia Commons",
+	"fileexporter-to-wikimedia-commons": "Exportar para o Wikimedia Commons",
 	"fileexporter-to-test": "Exportar para a wiki Test Wiki",
 	"fileexporter-beta-feature-message": "Exportador de arquivo",
 	"fileexporter-beta-feature-description": "Permite a exportação fácil de arquivo para Wikimedia Commons."
