@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hedda"
+			"Hedda",
+			"MuratTheTurkish"
 		]
 	},
 	"fileexporter": "DosyaAktarıcı",
-	"fileexporter-desc": "Dosyaların başka bir viki'ye kolayca aktarılmasını sağlar",
-	"fileexporter-text": "Dosyayı aktar",
-	"fileexporter-to-wikimedia-commons": "Wikimedia Commons'a aktar",
-	"fileexporter-to-test": "Test Wiki'ya aktar",
+	"fileexporter-desc": "Dosyaları başka bir vikiye kolayca dışa aktarır",
+	"fileexporter-text": "Dosyayı dışa aktar",
+	"fileexporter-to-wikimedia-commons": "Wikimedia Commons'a dışa aktar",
+	"fileexporter-to-test": "Test Viki'ye dışa aktar",
 	"fileexporter-beta-feature-message": "DosyaAktarıcı",
-	"fileexporter-beta-feature-description": "Dosyaların Wikimedia Commons'a kolayca aktarılmasını sağlar."
+	"fileexporter-beta-feature-description": "Dosyaların Wikimedia Commons'a kolayca aktarılmasına izin verir."
 }
