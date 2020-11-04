@@ -113,4 +113,24 @@ class FileExporterHooks {
 		}
 	}
 
+	/**
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ChangeTagsListActive
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ListDefinedTags
+	 *
+	 * @param string[] &$tags
+	 */
+	public static function onListDefinedTags( array &$tags ) {
+		$tags[] = 'fileimporter-remote';
+	}
+
+	/**
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ChangeTagsAllowedAdd
+	 * @param array &$allowedTags
+	 * @param array $tags
+	 * @param User|null $user
+	 */
+	public static function onChangeTagsAllowedAdd( array &$allowedTags, array $tags, User $user = null ) {
+		$allowedTags[] = 'fileimporter-remote';
+	}
+
 }
