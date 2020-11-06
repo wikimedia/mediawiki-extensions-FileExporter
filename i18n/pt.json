@@ -11,5 +11,7 @@
 	"fileexporter-to-wikimedia-commons": "Exportar para a wiki Wikimedia Commons",
 	"fileexporter-to-test": "Exportar para a wiki Test Wiki",
 	"fileexporter-beta-feature-message": "Exportador de ficheiros",
-	"fileexporter-beta-feature-description": "Permite a exportação fácil de ficheiros para a wiki Wikimedia Commons."
+	"fileexporter-beta-feature-description": "Permite a exportação fácil de ficheiros para a wiki Wikimedia Commons.",
+	"tag-fileimporter-remote": "Modificado pelo Importador de Ficheiros",
+	"tag-fileimporter-remote-description": "Edições efetuadas pela extensão [[mw:Extension:FileImporter|Importador de Ficheiros]] após ter importado um ficheiro desta wiki."
 }
