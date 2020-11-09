@@ -10,5 +10,7 @@
 	"fileexporter-to-wikimedia-commons": "Извези во Ризницата",
 	"fileexporter-to-test": "Извези во Пробното вики",
 	"fileexporter-beta-feature-message": "Извезувач на податотеки",
-	"fileexporter-beta-feature-description": "Овозможува лесен извоз на податотеки и нивно пренесување во Ризницата."
+	"fileexporter-beta-feature-description": "Овозможува лесен извоз на податотеки и нивно пренесување во Ризницата.",
+	"tag-fileimporter-remote": "Изменето од Увозникот на податотеки",
+	"tag-fileimporter-remote-description": "Уредувањата направени од додатокот „[[mw:Extension:FileImporter|Увозник на податотеки]]“ по успешен увоз на податотека од ова вики."
 }
