@@ -10,5 +10,7 @@
 	"fileexporter-to-wikimedia-commons": "Eksporter til Wikimedia Commons",
 	"fileexporter-to-test": "Eksporter til Test Wiki",
 	"fileexporter-beta-feature-message": "Fileksportering",
-	"fileexporter-beta-feature-description": "Gjør det mulig å enkelt eksportere filer til Wikimedia Commons."
+	"fileexporter-beta-feature-description": "Gjør det mulig å enkelt eksportere filer til Wikimedia Commons.",
+	"tag-fileimporter-remote": "Modifisert av FileImporter",
+	"tag-fileimporter-remote-description": "Redigeringer gjort med utvidelsen [[mw:Extension:FileImporter|FileImporter]] etter importering av en fil fra denne wikien."
 }

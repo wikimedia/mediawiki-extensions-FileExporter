@@ -11,5 +11,7 @@
 	"fileexporter-to-wikimedia-commons": "匯出至維基共享資源",
 	"fileexporter-to-test": "匯出至測試 Wiki",
 	"fileexporter-beta-feature-message": "檔案匯出器",
-	"fileexporter-beta-feature-description": "允許來輕鬆匯出檔案至維基共享資源。"
+	"fileexporter-beta-feature-description": "允許來輕鬆匯出檔案至維基共享資源。",
+	"tag-fileimporter-remote": "由 FileImporter 修改",
+	"tag-fileimporter-remote-description": "從這個 Wiki 成功匯入檔案後由 [[mw:Extension:FileImporter|FileImporter]] 擴充做出的編輯。"
 }
