@@ -12,5 +12,7 @@
 	"fileexporter-to-wikimedia-commons": "উইকিমিডিয়া কমন্সে রপ্তানি করুন",
 	"fileexporter-to-test": "পরীক্ষা উইকিতে রপ্তানি করুন",
 	"fileexporter-beta-feature-message": "ফাইল রপ্তানিকারক",
-	"fileexporter-beta-feature-description": "উইকিমিডিয়া কমন্সে ফাইলসমূহ সহজে রপ্তানি করার অনুমতি দেয়।"
+	"fileexporter-beta-feature-description": "উইকিমিডিয়া কমন্সে ফাইলসমূহ সহজে রপ্তানি করার অনুমতি দেয়।",
+	"tag-fileimporter-remote": "ফাইলইম্পোর্টার দ্বারা সম্পাদিত",
+	"tag-fileimporter-remote-description": "এই উইকি থেকে সফলভাবে একটি ফাইল আমদানি করার পর [[mw:Extension:FileImporter|ফাইলইম্পোর্টার]] দ্বারা করা সম্পাদনা।"
 }
