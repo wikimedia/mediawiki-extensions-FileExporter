@@ -141,6 +141,9 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 	}
 
 	/**
+	 * @param array $config
+	 * @param User $user
+	 * @param Title|null $title
 	 * @return SkinTemplate
 	 */
 	private function createSkinTemplate( array $config, User $user, Title $title = null ) {
