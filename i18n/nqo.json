@@ -6,7 +6,9 @@
 	},
 	"fileexporter-text": "ߞߐߕߐ߮ ߟߊߝߏ߬ߦߌ߬",
 	"fileexporter-to-wikimedia-commons": "ߊ߬ ߟߊߝߏ߬ߦߌ߬ ߥߞߌߡߋߘߌߦߊ߫ ߞߐߡߐ߲ߛ ߞߊ߲߬",
+	"fileexporter-to-test": "ߞߵߊ߬ ߟߊߝߏ߬ߦߌ߬ ߛߓߍߟߌ߫ ߥߞߌ߫",
 	"fileexporter-beta-feature-message": "ߞߐߕߐ߮ ߟߊߝߏ߬ߦߌߟߊ߲",
 	"fileexporter-beta-feature-description": "ߞߊ߬ ߞߐߕߐ߮ ߟߊ߬ߝߏ߬ߦߌ߬ߟߌ ߟߊߘߌ߬ߢߍ߬ ߥߞߌߡߋߘߌߦߊ߫ ߞߐߡߐ߲ߛ ߞߊ߲߬",
-	"tag-fileimporter-remote": "ߞߐߕߐ߮ ߟߊߝߏ߬ߦߌߟߊ߲ ߡߊ߬ߦߟߍ߬ߡߊ߲߬ߠߌ߲ ߠߎ߬"
+	"tag-fileimporter-remote": "ߞߐߕߐ߮ ߟߊߝߏ߬ߦߌߟߊ߲ ߡߊ߬ߦߟߍ߬ߡߊ߲߬ߠߌ߲ ߠߎ߬",
+	"tag-fileimporter-remote-description": "ߡߊ߬ߦߟߍ߬ߡߊ߲߬ߠߌ߲ ߡߍ߲ ߠߎ߬ ߛߌ߲ߘߌߣߍ߲߫ ߦߋ߫  [[mw:Extension:FileImporter|FileImporter]] ߘߐߦߙߌߥߊߟߌ ߓߟߏ߫ ߞߐߕߐ߮ ߟߊߛߣߍߣߍ߲ ߞߐ߫ ߞߊ߬ ߝߘߊ߫ ߥߞߌ ߣߌ߲߬ ߟߊ߫."
 }
