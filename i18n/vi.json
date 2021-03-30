@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Nghiemtrongdai VN",
 			"Vinhtantran"
 		]
 	},
@@ -10,5 +11,7 @@
 	"fileexporter-to-wikimedia-commons": "Xuất sang Wikimedia Commons",
 	"fileexporter-to-test": "Xuất sang Wiki Thử nghiệm",
 	"fileexporter-beta-feature-message": "Bộ xuất tập tin",
-	"fileexporter-beta-feature-description": "Cho phép xuất tập tin sang Wikimedia Commons một cách dễ dàng."
+	"fileexporter-beta-feature-description": "Cho phép xuất tập tin sang Wikimedia Commons một cách dễ dàng.",
+	"tag-fileimporter-remote": "Được xuất bởi FileImporter",
+	"tag-fileimporter-remote-description": "Các sửa đổi được thực hiện bởi tiện ích [[mw:Extension:FileImporter|FileImporter]] sau khi xuất tập tin thành công từ wiki này."
 }
