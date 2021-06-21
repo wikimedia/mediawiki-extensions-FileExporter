@@ -3,6 +3,7 @@
 		"authors": [
 			"A2093064",
 			"Liuxinyu970226",
+			"Shizhao",
 			"WQL",
 			"Xiplus"
 		]
@@ -13,5 +14,7 @@
 	"fileexporter-to-wikimedia-commons": "导出至维基共享资源",
 	"fileexporter-to-test": "导出至测试Wiki",
 	"fileexporter-beta-feature-message": "文件导出器",
-	"fileexporter-beta-feature-description": "允许轻松导出文件至维基共享资源。"
+	"fileexporter-beta-feature-description": "允许轻松导出文件至维基共享资源。",
+	"tag-fileimporter-remote": "已由文件导入器修改",
+	"tag-fileimporter-remote-description": "由[[mw:Extension:FileImporter|FileImporter]]扩展成功从该wiki导入文件后所做的编辑。"
 }
