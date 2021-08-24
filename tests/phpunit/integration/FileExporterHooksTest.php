@@ -1,6 +1,6 @@
 <?php
 
-namespace MediaWiki\Extension\FileExporter\Tests\Unit;
+namespace MediaWiki\Extension\FileExporter\Tests;
 
 use ExtensionRegistry;
 use FileExporter\FileExporterHooks;
@@ -14,8 +14,16 @@ use User;
 /**
  * @group Database
  * @coversDefaultClass \FileExporter\FileExporterHooks
+ *
+ * @license GPL-2.0-or-later
  */
 class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
+
+	protected function setUp(): void {
+		parent::setUp();
+		$this->setUserLang( 'qqx' );
+	}
+
 	/**
 	 * @covers ::onSkinTemplateNavigation
 	 */
@@ -111,6 +119,7 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 	/**
 	 * @dataProvider provideOnSkinTemplateNavigation_success
 	 * @covers ::onSkinTemplateNavigation
+	 * @covers ::getExportButtonLabel
 	 */
 	public function testOnSkinTemplateNavigation_success( $legacyConfig ) {
 		$this->setMwGlobals( $legacyConfig );
@@ -137,7 +146,8 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 		$expectedUrl = 'https://commons.invalid/wiki/Special:ImportFile?' .
 			'clientUrl=' . urlencode( $localFileUrl ) . '&' .
 			'importSource=FileExporter';
-		$this->assertEquals( $expectedUrl, $links['views']['fileExporter']['href'] );
+		$this->assertSame( $expectedUrl, $links['views']['fileExporter']['href'] );
+		$this->assertSame( '(fileexporter-text)', $links['views']['fileExporter']['text'] );
 	}
 
 	/**
