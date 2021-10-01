@@ -2,8 +2,8 @@
 
 namespace FileExporter;
 
-use BetaFeatures;
 use ExtensionRegistry;
+use MediaWiki\Extension\BetaFeatures\BetaFeatures;
 use MediaWiki\MediaWikiServices;
 use Message;
 use SkinTemplate;
