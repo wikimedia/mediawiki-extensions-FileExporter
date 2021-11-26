@@ -3,12 +3,13 @@
 		"authors": [
 			"Dgstranz",
 			"Fitoschido",
+			"Jakeukalane",
 			"Macofe",
 			"MarcoAurelio"
 		]
 	},
 	"fileexporter": "Exportador de archivos",
-	"fileexporter-desc": "Exportación sencilla de archivos a otro wiki",
+	"fileexporter-desc": "Exportación sencilla de archivos a otra wiki",
 	"fileexporter-text": "Exportar archivo",
 	"fileexporter-to-wikimedia-commons": "Exportar a Wikimedia Commons",
 	"fileexporter-to-test": "Exportar a Test Wiki",
