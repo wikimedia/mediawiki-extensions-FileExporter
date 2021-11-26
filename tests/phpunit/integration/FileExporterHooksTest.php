@@ -33,9 +33,6 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 		}
 
 		$user = $this->createMock( User::class );
-		$user->method( 'getOption' )
-			->with( 'fileexporter' )
-			->willReturn( '0' );
 
 		$skinTemplate = $this->createSkinTemplate(
 			[
