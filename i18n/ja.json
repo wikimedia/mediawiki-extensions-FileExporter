@@ -3,7 +3,8 @@
 		"authors": [
 			"Omotecho",
 			"Otokoume",
-			"Shirayuki"
+			"Shirayuki",
+			"Hzy980512"
 		]
 	},
 	"fileexporter": "FileExporter",
@@ -12,5 +13,7 @@
 	"fileexporter-to-wikimedia-commons": "ウィキメディア・コモンズにエクスポート",
 	"fileexporter-to-test": "テストウィキにエクスポート",
 	"fileexporter-beta-feature-message": "FileExporter",
-	"fileexporter-beta-feature-description": "ファイルをウィキメディア・コモンズへ容易にエクスポートできるようにします。"
+	"fileexporter-beta-feature-description": "ファイルをウィキメディア・コモンズへ容易にエクスポートできるようにします。",
+	"tag-fileimporter-remote": "FileImporterによる編集",
+	"tag-fileimporter-remote-description": "このウィキからのファイルインポートが成功した後、[[mw:Extension:FileImporter|FileImporter]]拡張機能が行った編集。"
 }

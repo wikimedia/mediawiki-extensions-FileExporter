@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Artsiom91"
+			"Artsiom91",
+			"ZlyiLev"
 		]
 	},
 	"fileexporter-to-wikimedia-commons": "Экспарт на Вікісховішча",
-	"fileexporter-beta-feature-description": "Дазваляе лёгка экспарціраваць файлы на Вікісховішча."
+	"fileexporter-beta-feature-description": "Дазваляе лёгка экспарціраваць файлы на Вікісховішча.",
+	"tag-fileimporter-remote": "Змена з дапамогай FileImporter"
 }

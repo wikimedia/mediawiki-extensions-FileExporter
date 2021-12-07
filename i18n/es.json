@@ -4,11 +4,12 @@
 			"Dgstranz",
 			"Fitoschido",
 			"Macofe",
-			"MarcoAurelio"
+			"MarcoAurelio",
+			"Jakeukalane"
 		]
 	},
 	"fileexporter": "Exportador de archivos",
-	"fileexporter-desc": "Exportación sencilla de archivos a otro wiki",
+	"fileexporter-desc": "Exportación sencilla de archivos a otra wiki",
 	"fileexporter-text": "Exportar archivo",
 	"fileexporter-to-wikimedia-commons": "Exportar a Wikimedia Commons",
 	"fileexporter-to-test": "Exportar a Test Wiki",
