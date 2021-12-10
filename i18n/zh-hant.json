@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Kly",
-			"WQL"
+			"WQL",
+			"Winston Sung"
 		]
 	},
-	"fileexporter": "檔案匯出器",
+	"fileexporter": "檔案匯出器（FileExporter）",
 	"fileexporter-desc": "輕鬆匯出檔案至其它 wiki",
 	"fileexporter-text": "匯出檔案",
 	"fileexporter-to-wikimedia-commons": "匯出至維基共享資源",
