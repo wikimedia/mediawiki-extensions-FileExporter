@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"fileexporter-desc": "Exportation facile de files a un altere wiki",
+	"fileexporter-text": "Exportar file",
+	"fileexporter-to-wikimedia-commons": "Exportar a Wikimedia Commons",
+	"fileexporter-to-test": "Exportar a Test Wiki",
+	"fileexporter-beta-feature-message": "FileExporter",
+	"fileexporter-beta-feature-description": "Permitte le exportation facile de files a Wikimedia Commons."
+}

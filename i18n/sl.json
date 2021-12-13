@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Janezdrilc"
+			"Janezdrilc",
+			"Eleassar"
 		]
 	},
 	"fileexporter": "Izvoznik datotek",
-	"fileexporter-desc": "Enostavno izvažanje datotek v drug wiki",
+	"fileexporter-desc": "Preprosto izvažanje datotek v drug wiki",
 	"fileexporter-text": "Izvozi datoteko",
 	"fileexporter-to-wikimedia-commons": "Izvozi v Wikimedijino zbirko",
 	"fileexporter-to-test": "Izvozi v Testno Wikipedijo",

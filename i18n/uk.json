@@ -3,7 +3,8 @@
 		"authors": [
 			"Piramidion",
 			"SimondR",
-			"Ата"
+			"Ата",
+			"DDPAT"
 		]
 	},
 	"fileexporter": "Експортер файлів",
@@ -11,6 +12,6 @@
 	"fileexporter-text": "Експортувати файл",
 	"fileexporter-to-wikimedia-commons": "Експортувати до Вікісховища",
 	"fileexporter-to-test": "Експорт до тестової вікі",
-	"fileexporter-beta-feature-message": "Експортер файлів",
+	"fileexporter-beta-feature-message": "FileExporter",
 	"fileexporter-beta-feature-description": "Дає змогу з легкістю експортувати файли у Вікісховище."
 }
