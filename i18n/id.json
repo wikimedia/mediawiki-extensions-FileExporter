@@ -1,9 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Iwan Novirion"
+			"Iwan Novirion",
+			"Daud I.F. Argana"
 		]
 	},
 	"fileexporter": "Pengekspor berkas",
+	"fileexporter-desc": "Mengekspor berkas ke wiki lain dengan mudah",
+	"fileexporter-text": "Ekspor berkas",
+	"fileexporter-to-wikimedia-commons": "Ekspor ke Wikimedia Commons",
+	"fileexporter-to-test": "Ekspor ke Test Wiki",
+	"fileexporter-beta-feature-message": "Pengekspor berkas",
 	"fileexporter-beta-feature-description": "Izinkan mengekspor berkas lebih mudah ke Wikimedia Commons"
 }
