@@ -2,9 +2,6 @@
 
 namespace FileExporter;
 
-use ExtensionRegistry;
-use MediaWiki\Extension\BetaFeatures\BetaFeatures;
-use MediaWiki\MediaWikiServices;
 use Message;
 use SkinTemplate;
 use User;
@@ -25,18 +22,6 @@ class FileExporterHooks {
 		$config = $context->getConfig();
 		$user = $context->getUser();
 		$title = $context->getTitle();
-
-		/**
-		 * If this extension is configured to be a beta feature, and the BetaFeatures extension
-		 * is loaded then require the current user to have the feature enabled.
-		 */
-		if (
-			$config->get( 'FileExporterBetaFeature' ) &&
-			ExtensionRegistry::getInstance()->isLoaded( 'BetaFeatures' ) &&
-			!BetaFeatures::isFeatureEnabled( $user, 'fileexporter' )
-		) {
-			return;
-		}
 
 		if ( !$title ||
 			$title->getNamespace() !== NS_FILE ||
@@ -87,30 +72,6 @@ class FileExporterHooks {
 		}
 
 		return Message::newFromKey( $msg )->plain();
-	}
-
-	/**
-	 * @param User $user
-	 * @param array[] &$prefs
-	 */
-	public static function onGetBetaFeaturePreferences( User $user, array &$prefs ) {
-		$config = MediaWikiServices::getInstance()->getMainConfig();
-		$extensionAssetsPath = $config->get( 'ExtensionAssetsPath' );
-
-		if ( $config->get( 'FileExporterBetaFeature' )
-			&& !$user->isNewbie()
-		) {
-			$prefs[ 'fileexporter' ] = [
-				'label-message' => 'fileexporter-beta-feature-message',
-				'desc-message' => 'fileexporter-beta-feature-description',
-				'screenshot' => [
-					'ltr' => "$extensionAssetsPath/FileExporter/resources/FileExporter-beta-features-ltr.svg",
-					'rtl' => "$extensionAssetsPath/FileExporter/resources/FileExporter-beta-features-rtl.svg",
-				],
-				'info-link' => 'https://www.mediawiki.org/wiki/Help:Extension:FileImporter',
-				'discussion-link' => 'https://www.mediawiki.org/wiki/Help_talk:Extension:FileImporter',
-			];
-		}
 	}
 
 	/**

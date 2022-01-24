@@ -22,11 +22,6 @@
 		]
 	},
 	"config": {
-		"FileExporterBetaFeature": {
-			"value": false,
-			"description": "Make FileExporter a BetaFeature. This requires the FileExporter extension and requires it to be enabled as a BetaFeature by each user.",
-			"public": true
-		},
 		"FileExporterTarget": {
 			"value": "https://commons.wikimedia.org/wiki/Special:ImportFile",
 			"description": "The Special:ImportFile page on the target wiki, as provided by the FileImporter extension.",
@@ -37,7 +32,6 @@
 		"ChangeTagsAllowedAdd": "FileExporter\\FileExporterHooks::onChangeTagsAllowedAdd",
 		"ChangeTagsListActive": "FileExporter\\FileExporterHooks::onListDefinedTags",
 		"SkinTemplateNavigation::Universal": "FileExporter\\FileExporterHooks::onSkinTemplateNavigation",
-		"GetBetaFeaturePreferences": "FileExporter\\FileExporterHooks::onGetBetaFeaturePreferences",
 		"ListDefinedTags": "FileExporter\\FileExporterHooks::onListDefinedTags"
 	},
 	"AutoloadNamespaces": {

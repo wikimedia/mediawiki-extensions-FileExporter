@@ -10,8 +10,6 @@
 	"fileexporter-text": "Text to be displayed on a button on a File page which will take the user to the import page on the configured wiki.",
 	"fileexporter-to-wikimedia-commons": "Text to be displayed on a button on a File page which will take the user to the import page on Wikimedia Commons.",
 	"fileexporter-to-test": "Text to be displayed on a button on a File page which will take the user to the import page on the Test Wiki.",
-	"fileexporter-beta-feature-message": "Label for the FileExporter Beta Feature.",
-	"fileexporter-beta-feature-description": "Description for the FileExporter Beta Feature, describing the feature that will be enabled.",
 	"tag-fileimporter-remote": "Short label for edits marked with the \"fileimporter-remote\" tag.",
 	"tag-fileimporter-remote-description": "Description explaining the \"fileimporter-remote\" tag."
 }
