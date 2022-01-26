@@ -9,8 +9,6 @@
 	"fileexporter-text": "ייצוא קובץ",
 	"fileexporter-to-wikimedia-commons": "ייצוא לוויקישיתוף",
 	"fileexporter-to-test": "ייצוא לאתר ויקי של בדיקות (Test Wiki)",
-	"fileexporter-beta-feature-message": "מייצא קבצים",
-	"fileexporter-beta-feature-description": "ייצוא קל של קבצים לוויקישיתוף.",
 	"tag-fileimporter-remote": "שונה על־ידי מייבא הקבצים",
 	"tag-fileimporter-remote-description": "עריכות שנעשו על־ידי ההרחבה [[mw:Extension:FileImporter|FileImporter]] אחרי יבוא מוצלח של קובץ מהוויקי הזה."
 }

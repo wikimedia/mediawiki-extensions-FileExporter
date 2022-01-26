@@ -11,8 +11,6 @@
 	"fileexporter-text": "Datei exportieren",
 	"fileexporter-to-wikimedia-commons": "Nach Wikimedia Commons exportieren",
 	"fileexporter-to-test": "Ins Testwiki exportieren",
-	"fileexporter-beta-feature-message": "Dateiexporteur",
-	"fileexporter-beta-feature-description": "Erlaubt den einfachen Export von Dateien nach Wikimedia Commons.",
 	"tag-fileimporter-remote": "Verändert durch den Dateiimporteur",
 	"tag-fileimporter-remote-description": "Bearbeitungen, die durch die Erweiterung [[mw:Extension:FileImporter|FileImporter]] nach dem erfolgreichen Import einer Datei aus diesem Wiki vorgenommen wurden."
 }

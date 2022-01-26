@@ -10,7 +10,5 @@
 	"fileexporter-desc": "Лёгкий экспорт файлов на другую вики",
 	"fileexporter-text": "Экспортировать файл",
 	"fileexporter-to-wikimedia-commons": "Экспорт на Викисклад",
-	"fileexporter-to-test": "Экспорт в тестовую вики",
-	"fileexporter-beta-feature-message": "FileExporter",
-	"fileexporter-beta-feature-description": "Позволяет легко экспортировать файлы на Викисклад."
+	"fileexporter-to-test": "Экспорт в тестовую вики"
 }

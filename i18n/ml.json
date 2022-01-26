@@ -10,8 +10,6 @@
 	"fileexporter-text": "പ്രമാണം കയറ്റുമതി ചെയ്യുക",
 	"fileexporter-to-wikimedia-commons": "വിക്കിമീഡിയ കോമൺസിലേക്ക് കയറ്റുമതി ചെയ്യുക",
 	"fileexporter-to-test": "പരീക്ഷണവിക്കിയിലേക്ക് കയറ്റുമതി ചെയ്യുക",
-	"fileexporter-beta-feature-message": "പ്രമാണകയറ്റുമതിഉപകരണം",
-	"fileexporter-beta-feature-description": "വിക്കിമീഡിയ കോമൺസിലേക്ക് പ്രമാണങ്ങൾ എളുപ്പത്തിൽ കയറ്റുമതി ചെയ്യാൻ അനുവദിക്കുന്നു.",
 	"tag-fileimporter-remote": "പ്രമാണകയറ്റുമതിഉപകരണം നടത്തിയ തിരുത്തലുകൾ",
 	"tag-fileimporter-remote-description": "ഈ വിക്കിയിൽ നിന്ന് പ്രമാണം ഇറക്കുമതി ചെയ്തതിനു ശേഷം [[mw:Extension:FileImporter|പ്രമാണകയറ്റുമതിഉപകരണം]] നടത്തിയ തിരുത്തലുകൾ."
 }

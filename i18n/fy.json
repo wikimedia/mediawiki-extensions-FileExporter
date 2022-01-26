@@ -9,8 +9,6 @@
 	"fileexporter-text": "Bestân eksportearje",
 	"fileexporter-to-wikimedia-commons": "Eksportearje nei Wikimedia Commons",
 	"fileexporter-to-test": "Eksportearje nei Test-wiki",
-	"fileexporter-beta-feature-message": "Bestâneksportearder",
-	"fileexporter-beta-feature-description": "It noflik eksportearjen fan bestannen nei Wikimedia Commons mooglik meitsje.",
 	"tag-fileimporter-remote": "Wizige troch Bestânymportearder",
 	"tag-fileimporter-remote-description": "Bewurkings dien troch de [[mw:Extension:FileImporter|Bestânymportearder]]-útwreiding, nei it slagge ymportearjen fan in bestân fan dizze wiki."
 }

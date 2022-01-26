@@ -9,7 +9,5 @@
 	"fileexporter-text": "Esporta file",
 	"fileexporter-to-wikimedia-commons": "Esporta su Wikimedia Commons",
 	"fileexporter-to-test": "Esporta su Test Wiki",
-	"fileexporter-beta-feature-message": "FileExporter",
-	"fileexporter-beta-feature-description": "Permette di esportare facilmente i file su Wikimedia Commons.",
 	"tag-fileimporter-remote": "Modificato da FileImporter"
 }

@@ -7,7 +7,5 @@
 	"fileexporter": "Failų perkėlimas",
 	"fileexporter-text": "Perkelti failą",
 	"fileexporter-to-wikimedia-commons": "Perkelti į Vikiteką",
-	"fileexporter-to-test": "Perkelti į Test Wiki",
-	"fileexporter-beta-feature-message": "Failų perkėlimas",
-	"fileexporter-beta-feature-description": "Leidžia lengvai perkelti failus į Vikiteką."
+	"fileexporter-to-test": "Perkelti į Test Wiki"
 }

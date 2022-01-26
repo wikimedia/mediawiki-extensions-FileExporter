@@ -8,7 +8,5 @@
 	"fileexporter-desc": "Enkel eksportering av filer til ein annan wiki",
 	"fileexporter-text": "Eksporter fil",
 	"fileexporter-to-wikimedia-commons": "Eksporter til Wikimedia Commons",
-	"fileexporter-to-test": "Eksporter til Test Wiki",
-	"fileexporter-beta-feature-message": "Fileksportør",
-	"fileexporter-beta-feature-description": "Gjer det mogeleg å lett eksportera filer til Wikimedia Commons."
+	"fileexporter-to-test": "Eksporter til Test Wiki"
 }

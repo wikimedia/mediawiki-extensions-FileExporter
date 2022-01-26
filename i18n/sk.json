@@ -8,7 +8,5 @@
 	"fileexporter-desc": "Jednoduché exportovanie súborov na inú wiki",
 	"fileexporter-text": "Exportovať súbor",
 	"fileexporter-to-wikimedia-commons": "Exportovať na Wikimedia Commons",
-	"fileexporter-to-test": "Exportovať na Test Wiki",
-	"fileexporter-beta-feature-message": "Exportér súborov",
-	"fileexporter-beta-feature-description": "Umožňuje jednoduchý export súborov na Wikimedia Commons."
+	"fileexporter-to-test": "Exportovať na Test Wiki"
 }
