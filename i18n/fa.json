@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Beginneruser",
 			"Ladsgroup"
 		]
 	},
 	"fileexporter": "برون‌ریز پرونده",
 	"fileexporter-desc": "راه ساده برای برون‌ریزی پرونده‌ها به یک ویکی دیگر",
-	"fileexporter-text": "برون‌ریزی پرونده",
-	"fileexporter-to-wikimedia-commons": "برون‌ریزی به ویکی‌انبار",
-	"fileexporter-to-test": "برون‌ریزی به ویکی تست"
+	"fileexporter-text": "برون‌بری پرونده",
+	"fileexporter-to-wikimedia-commons": "برون‌بری به ویکی‌انبار",
+	"fileexporter-to-test": "برون‌بری به ویکی تست"
 }
