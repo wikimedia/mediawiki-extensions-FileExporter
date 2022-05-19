@@ -3,12 +3,14 @@
 		"authors": [
 			"Facenapalm",
 			"Movses",
-			"Vlad5250"
+			"Vlad5250",
+			"Pacha Tchernof"
 		]
 	},
 	"fileexporter": "FileExporter",
 	"fileexporter-desc": "Лёгкий экспорт файлов на другую вики",
 	"fileexporter-text": "Экспортировать файл",
 	"fileexporter-to-wikimedia-commons": "Экспорт на Викисклад",
-	"fileexporter-to-test": "Экспорт в тестовую вики"
+	"fileexporter-to-test": "Экспорт в тестовую вики",
+	"tag-fileimporter-remote-description": "Правки, сделанные расширением [[mw:Extension:FileImporter|FileImporter]] после успешного импортирования файла из другой вики."
 }
