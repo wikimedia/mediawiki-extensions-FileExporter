@@ -5,10 +5,10 @@
 			"Guycn2"
 		]
 	},
-	"fileexporter-desc": "ייצוא קל של קבצים לוויקי אחר",
-	"fileexporter-text": "ייצוא קובץ",
-	"fileexporter-to-wikimedia-commons": "ייצוא לוויקישיתוף",
-	"fileexporter-to-test": "ייצוא לאתר ויקי של בדיקות (Test Wiki)",
+	"fileexporter-desc": "יצוא קל של קבצים לוויקי אחר",
+	"fileexporter-text": "יצוא קובץ",
+	"fileexporter-to-wikimedia-commons": "יצוא לוויקישיתוף",
+	"fileexporter-to-test": "יצוא לאתר ויקי של בדיקות (Test Wiki)",
 	"fileexporter-beta-feature-message": "מייצא קבצים",
 	"fileexporter-beta-feature-description": "ייצוא קל של קבצים לוויקישיתוף.",
 	"tag-fileimporter-remote": "שונה על־ידי מייבא הקבצים",
