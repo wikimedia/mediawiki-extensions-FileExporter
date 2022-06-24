@@ -2,10 +2,10 @@
 
 namespace FileExporter;
 
+use MediaWiki\MediaWikiServices;
 use Message;
 use SkinTemplate;
 use User;
-use WikiFilePage;
 
 /**
  * @license GPL-2.0-or-later
@@ -31,7 +31,7 @@ class FileExporterHooks {
 			return;
 		}
 
-		$page = new WikiFilePage( $title );
+		$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
 		if ( !$page->isLocal() ) {
 			return;
 		}
