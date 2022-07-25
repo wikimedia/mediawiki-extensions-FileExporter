@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Beginneruser",
 			"Umherirrender",
 			"WMDE"
 		]
 	},
-	"fileexporter": "{{name}}",
+	"fileexporter": "{{name}}\nThe name of the extension",
 	"fileexporter-desc": "{{desc|name=FileExporter|url=https://www.mediawiki.org/wiki/Extension:FileExporter}}",
 	"fileexporter-text": "Text to be displayed on a button on a File page which will take the user to the import page on the configured wiki.",
 	"fileexporter-to-wikimedia-commons": "Text to be displayed on a button on a File page which will take the user to the import page on Wikimedia Commons.",
