@@ -4,6 +4,7 @@
 			"Facenapalm",
 			"Movses",
 			"Pacha Tchernof",
+			"Stjn",
 			"Vlad5250"
 		]
 	},
@@ -12,5 +13,6 @@
 	"fileexporter-text": "Экспортировать файл",
 	"fileexporter-to-wikimedia-commons": "Экспорт на Викисклад",
 	"fileexporter-to-test": "Экспорт в тестовую вики",
+	"tag-fileimporter-remote": "Изменено через FileImporter",
 	"tag-fileimporter-remote-description": "Правки, сделанные расширением [[mw:Extension:FileImporter|FileImporter]] после успешного импортирования файла из другой вики."
 }
