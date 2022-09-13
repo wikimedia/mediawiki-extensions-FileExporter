@@ -10,5 +10,7 @@
 	"fileexporter-to-wikimedia-commons": "Izvezi na Wikimedijinu ostavu",
 	"fileexporter-to-test": "Izvezi na Testni Wiki",
 	"fileexporter-beta-feature-message": "Izvoznik datoteka",
-	"fileexporter-beta-feature-description": "Omogućava lagan izvoz datoteka i njihovo prenesivanje na Wikimedijinu ostavu."
+	"fileexporter-beta-feature-description": "Omogućava lagan izvoz datoteka i njihovo prenesivanje na Wikimedijinu ostavu.",
+	"tag-fileimporter-remote": "Modificirano od strane Uvoznika datoteka",
+	"tag-fileimporter-remote-description": "Uređivanja koja je napravio [[mw:Extension:FileImporter|datotečni izvoznik]] nakon uspješnog uvoza datoteke s ovog wikija."
 }
