@@ -98,21 +98,9 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 
 	public function provideOnSkinTemplateNavigation_success() {
 		return [
-			'https protocol' => [
-				[
-					'wgServer' => 'https://w.invalid',
-				]
-			],
-			'Relative protocol' => [
-				[
-					'wgServer' => '//w.invalid',
-				],
-			],
-			'No protocol' => [
-				[
-					'wgServer' => 'w.invalid',
-				],
-			],
+			'https protocol' => [ 'https://w.invalid' ],
+			'Relative protocol' => [ '//w.invalid' ],
+			'No protocol' => [ 'w.invalid' ],
 		];
 	}
 
@@ -121,8 +109,8 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 	 * @covers ::onSkinTemplateNavigation
 	 * @covers ::getExportButtonLabel
 	 */
-	public function testOnSkinTemplateNavigation_success( $legacyConfig ) {
-		$this->setMwGlobals( $legacyConfig );
+	public function testOnSkinTemplateNavigation_success( string $server ) {
+		$this->setMwGlobals( [ [ 'wgServer' => $server ] ] );
 
 		$title = Title::makeTitle( NS_FILE, __CLASS__ . mt_rand() );
 
