@@ -24,7 +24,7 @@ class FileExporterHooks {
 		$title = $context->getTitle();
 
 		if ( !$title ||
-			$title->getNamespace() !== NS_FILE ||
+			!$title->inNamespace( NS_FILE ) ||
 			!$title->exists() ||
 			$user->isNewbie()
 		) {
