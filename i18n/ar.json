@@ -10,5 +10,7 @@
 	"fileexporter-desc": "من السهل تصدير الملفات إلى ويكي آخر",
 	"fileexporter-text": "استيراد ملف",
 	"fileexporter-to-wikimedia-commons": "تصدير إلى ويكيميديا ​​كومنز",
-	"fileexporter-to-test": "تصدير إلى ويكي اختبار"
+	"fileexporter-to-test": "تصدير إلى ويكي اختبار",
+	"tag-fileimporter-remote": "تم التعديل بواسطة مستورد الملفات",
+	"tag-fileimporter-remote-description": "عمليات التحرير التي تم إجراؤها بواسطة الامتداد [[mw:Extension:FileImporter|FileImporter]] بعد استيراد ملف من موقع wiki هذا بنجاح."
 }
