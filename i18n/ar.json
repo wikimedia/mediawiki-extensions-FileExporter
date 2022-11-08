@@ -12,5 +12,7 @@
 	"fileexporter-to-wikimedia-commons": "تصدير إلى ويكيميديا ​​كومنز",
 	"fileexporter-to-test": "تصدير إلى ويكي اختبار",
 	"fileexporter-beta-feature-message": "مصدر الملفات",
-	"fileexporter-beta-feature-description": "يتيح سهولة تصدير الملفات إلى ويكيميديا ​​كومنز."
+	"fileexporter-beta-feature-description": "يتيح سهولة تصدير الملفات إلى ويكيميديا ​​كومنز.",
+	"tag-fileimporter-remote": "تم التعديل بواسطة مستورد الملفات",
+	"tag-fileimporter-remote-description": "عمليات التحرير التي تم إجراؤها بواسطة الامتداد [[mw:Extension:FileImporter|FileImporter]] بعد استيراد ملف من موقع wiki هذا بنجاح."
 }
