@@ -39,7 +39,7 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 		$links = [];
 		FileExporterHooks::onSkinTemplateNavigation( $skinTemplate, $links );
 
-		$this->assertEmpty( $links );
+		$this->assertSame( [], $links );
 	}
 
 	/**
