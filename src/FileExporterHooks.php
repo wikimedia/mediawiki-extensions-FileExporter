@@ -36,7 +36,11 @@ class FileExporterHooks {
 			return;
 		}
 
-		$parsedUrl = wfParseUrl( $config->get( 'FileExporterTarget' ) );
+		$target = $config->get( 'FileExporterTarget' );
+		if ( !$target ) {
+			throw new \ConfigException( '$wgFileExporterTarget doesn\'t have a default, please set your own' );
+		}
+		$parsedUrl = wfParseUrl( $target );
 		$query = wfCgiToArray( $parsedUrl['query'] ?? '' );
 		$query['clientUrl'] = $title->getFullURL( '', false, PROTO_CANONICAL );
 
