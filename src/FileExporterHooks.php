@@ -63,10 +63,6 @@ class FileExporterHooks {
 	private static function getExportButtonLabel( $host ) {
 		if ( $host === 'commons.wikimedia.org' ) {
 			$msg = 'fileexporter-to-wikimedia-commons';
-		} elseif ( strpos( $host, '.beta.wmflabs.org' ) > 0
-			|| preg_match( '/^test\d*\./i', $host )
-		) {
-			$msg = 'fileexporter-to-test';
 		} else {
 			$msg = 'fileexporter-text';
 		}
