@@ -23,8 +23,8 @@
 	},
 	"config": {
 		"FileExporterTarget": {
-			"value": "https://commons.wikimedia.org/wiki/Special:ImportFile",
-			"description": "The Special:ImportFile page on the target wiki, as provided by the FileImporter extension.",
+			"value": null,
+			"description": "Link to the FileImporter's Special:ImportFile page on the target wiki where files should be exported to. For Wikimedia wikis this is \"https://commons.wikimedia.org/wiki/Special:ImportFile\".",
 			"public": true
 		}
 	},
