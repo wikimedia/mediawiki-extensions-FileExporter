@@ -11,7 +11,6 @@
 	"fileexporter-desc": "Exportação fácil de arquivos para outra wiki",
 	"fileexporter-text": "Exportar arquivo",
 	"fileexporter-to-wikimedia-commons": "Exportar para o Wikimedia Commons",
-	"fileexporter-to-test": "Exportar para a wiki Test Wiki",
 	"tag-fileimporter-remote": "Modificado por FileImporter",
 	"tag-fileimporter-remote-description": "Edições efetuadas pela extensão [[mw:Extension:FileImporter|Importador de arquivos]] após ter importado um arquivos desta wiki."
 }

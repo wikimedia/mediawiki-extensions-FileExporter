@@ -7,6 +7,5 @@
 	"fileexporter": "Извозник датотека",
 	"fileexporter-desc": "Једноставан извоз датотека на други пројекат",
 	"fileexporter-text": "Извези датотеку",
-	"fileexporter-to-wikimedia-commons": "Извези на Оставу",
-	"fileexporter-to-test": "Извези на Тестни вики"
+	"fileexporter-to-wikimedia-commons": "Извези на Оставу"
 }

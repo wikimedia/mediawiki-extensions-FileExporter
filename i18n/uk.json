@@ -12,7 +12,6 @@
 	"fileexporter-desc": "Легке експортування файлів до іншої вікі",
 	"fileexporter-text": "Експортувати файл",
 	"fileexporter-to-wikimedia-commons": "Експортувати до Вікісховища",
-	"fileexporter-to-test": "Експорт до тестової вікі",
 	"tag-fileimporter-remote": "Змінено FileImporter",
 	"tag-fileimporter-remote-description": "Зміни, внесені розширенням [[mw:Extension:FileImporter|FileImporter]] після успішного імпорту файлу з цієї вікі."
 }

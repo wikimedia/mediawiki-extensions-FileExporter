@@ -7,6 +7,5 @@
 	"fileexporter": "Tiedostoviejä",
 	"fileexporter-desc": "Tiedostojen helppo vienti toiseen wikiin",
 	"fileexporter-text": "Vie tiedosto",
-	"fileexporter-to-wikimedia-commons": "Vie Wikimedia Commonsiin",
-	"fileexporter-to-test": "Vie testiwikiin"
+	"fileexporter-to-wikimedia-commons": "Vie Wikimedia Commonsiin"
 }

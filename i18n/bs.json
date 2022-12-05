@@ -8,6 +8,5 @@
 	"fileexporter": "Izvoznik datoteka",
 	"fileexporter-desc": "Lagan izvoz datoteka na drugi wiki",
 	"fileexporter-text": "Izvezi datoteku",
-	"fileexporter-to-wikimedia-commons": "Izvezi na Wikimedia Commons",
-	"fileexporter-to-test": "Izvezi na Test Wiki"
+	"fileexporter-to-wikimedia-commons": "Izvezi na Wikimedia Commons"
 }

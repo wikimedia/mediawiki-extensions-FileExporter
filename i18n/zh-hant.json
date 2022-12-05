@@ -10,7 +10,6 @@
 	"fileexporter-desc": "輕鬆匯出檔案至其它 wiki",
 	"fileexporter-text": "匯出檔案",
 	"fileexporter-to-wikimedia-commons": "匯出至維基共享資源",
-	"fileexporter-to-test": "匯出至測試 Wiki",
 	"tag-fileimporter-remote": "由 FileImporter 修改",
 	"tag-fileimporter-remote-description": "從這個 Wiki 成功匯入檔案後由 [[mw:Extension:FileImporter|FileImporter]] 擴充做出的編輯。"
 }

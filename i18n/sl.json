@@ -9,7 +9,6 @@
 	"fileexporter-desc": "Preprosto izvažanje datotek v drug viki",
 	"fileexporter-text": "Izvozi datoteko",
 	"fileexporter-to-wikimedia-commons": "Izvozi v Wikimedijino zbirko",
-	"fileexporter-to-test": "Izvozi v Preizkusni viki",
 	"tag-fileimporter-remote": "spremenjeno z razširitvijo FileImporter",
 	"tag-fileimporter-remote-description": "Urejanja, opravljena z razširitvijo [[mw:Extension:FileImporter|FileImporter]] po uspešni naložitvi datoteke iz tega vikija"
 }

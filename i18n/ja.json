@@ -11,7 +11,6 @@
 	"fileexporter-desc": "ファイルを別のウィキに、容易にエクスポートする",
 	"fileexporter-text": "ファイルをエクスポート",
 	"fileexporter-to-wikimedia-commons": "ウィキメディア・コモンズにエクスポート",
-	"fileexporter-to-test": "テストウィキにエクスポート",
 	"tag-fileimporter-remote": "FileImporterによる編集",
 	"tag-fileimporter-remote-description": "このウィキからのファイルインポートが成功した後、[[mw:Extension:FileImporter|FileImporter]]拡張機能が行った編集。"
 }

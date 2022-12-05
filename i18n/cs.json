@@ -7,6 +7,5 @@
 	"fileexporter": "Exportér souborů",
 	"fileexporter-desc": "Jednoduché exportování souborů na jinou wiki",
 	"fileexporter-text": "Exportovat soubor",
-	"fileexporter-to-wikimedia-commons": "Exportovat na Wikimedia Commons",
-	"fileexporter-to-test": "Exportovat na Test Wiki"
+	"fileexporter-to-wikimedia-commons": "Exportovat na Wikimedia Commons"
 }

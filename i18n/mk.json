@@ -8,7 +8,6 @@
 	"fileexporter-desc": "Лесен извоз на податотеки на друго вики",
 	"fileexporter-text": "Извези податотека",
 	"fileexporter-to-wikimedia-commons": "Извези во Ризницата",
-	"fileexporter-to-test": "Извези во Пробното вики",
 	"tag-fileimporter-remote": "Изменето од Увозникот на податотеки",
 	"tag-fileimporter-remote-description": "Уредувањата направени од додатокот „[[mw:Extension:FileImporter|Увозник на податотеки]]“ по успешен увоз на податотека од ова вики."
 }

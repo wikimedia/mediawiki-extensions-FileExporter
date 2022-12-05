@@ -8,6 +8,5 @@
 	"fileexporter": "Filexporterare",
 	"fileexporter-desc": "Enkel exportering av filer till en annan wiki",
 	"fileexporter-text": "Exportera fil",
-	"fileexporter-to-wikimedia-commons": "Exportera till Wikimedia Commons",
-	"fileexporter-to-test": "Exportera till TestWiki"
+	"fileexporter-to-wikimedia-commons": "Exportera till Wikimedia Commons"
 }
