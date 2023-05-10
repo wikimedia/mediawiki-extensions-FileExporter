@@ -1,11 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Manvydasz"
+			"Manvydasz",
+			"Nokeoo"
 		]
 	},
 	"fileexporter": "Failų perkėlimas",
+	"fileexporter-desc": "Lengvas failų eksportavimas į kitą vikį",
 	"fileexporter-text": "Perkelti failą",
 	"fileexporter-to-wikimedia-commons": "Perkelti į Vikiteką",
-	"fileexporter-to-test": "Perkelti į Test Wiki"
+	"fileexporter-to-test": "Perkelti į Test Wiki",
+	"tag-fileimporter-remote": "Pakeitė FileImporter",
+	"tag-fileimporter-remote-description": "Keitimai, atlikti plėtiniu [[mw:Extension:FileImporter|FileImporter]] sėkmingai importavus failą iš šio viki."
 }
