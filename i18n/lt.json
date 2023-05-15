@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Manvydasz"
+			"Manvydasz",
+			"Nokeoo"
 		]
 	},
 	"fileexporter": "Failų perkėlimas",
+	"fileexporter-desc": "Lengvas failų eksportavimas į kitą vikį",
 	"fileexporter-text": "Perkelti failą",
 	"fileexporter-to-wikimedia-commons": "Perkelti į Vikiteką",
 	"fileexporter-to-test": "Perkelti į Test Wiki",
