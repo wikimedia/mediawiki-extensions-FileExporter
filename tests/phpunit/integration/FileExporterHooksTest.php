@@ -63,7 +63,7 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 		$this->assertArrayNotHasKey( 'fileExporter', $links['views'] );
 	}
 
-	public function provideOnSkinTemplateNavigation_success() {
+	public static function provideOnSkinTemplateNavigation_success() {
 		return [
 			'https protocol' => [ 'https://w.invalid' ],
 			'Relative protocol' => [ '//w.invalid' ],
