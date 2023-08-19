@@ -5,9 +5,9 @@ namespace MediaWiki\Extension\FileExporter\Tests;
 use FileExporter\FileExporterHooks;
 use HashConfig;
 use IContextSource;
+use MediaWiki\Title\Title;
 use MediaWikiIntegrationTestCase;
 use SkinTemplate;
-use Title;
 use User;
 
 /**
