@@ -1,7 +1,13 @@
 <?php
 
+// phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
+
 namespace FileExporter;
 
+use MediaWiki\ChangeTags\Hook\ChangeTagsAllowedAddHook;
+use MediaWiki\ChangeTags\Hook\ChangeTagsListActiveHook;
+use MediaWiki\ChangeTags\Hook\ListDefinedTagsHook;
+use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\MediaWikiServices;
 use Message;
 use SkinTemplate;
@@ -11,13 +17,18 @@ use User;
  * @license GPL-2.0-or-later
  * @author Addshore
  */
-class FileExporterHooks {
+class FileExporterHooks implements
+	ChangeTagsAllowedAddHook,
+	ChangeTagsListActiveHook,
+	SkinTemplateNavigation__UniversalHook,
+	ListDefinedTagsHook
+{
 
 	/**
 	 * @param SkinTemplate $skinTemplate
 	 * @param array[] &$links
 	 */
-	public static function onSkinTemplateNavigation( SkinTemplate $skinTemplate, array &$links ) {
+	public function onSkinTemplateNavigation__Universal( $skinTemplate, &$links ): void {
 		$context = $skinTemplate->getContext();
 		$config = $context->getConfig();
 		$user = $context->getUser();
@@ -75,12 +86,20 @@ class FileExporterHooks {
 	}
 
 	/**
-	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ChangeTagsListActive
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ListDefinedTags
 	 *
 	 * @param string[] &$tags
 	 */
-	public static function onListDefinedTags( array &$tags ) {
+	public function onListDefinedTags( &$tags ) {
+		$tags[] = 'fileimporter-remote';
+	}
+
+	/**
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ChangeTagsListActive
+	 *
+	 * @param string[] &$tags
+	 */
+	public function onChangeTagsListActive( &$tags ) {
 		$tags[] = 'fileimporter-remote';
 	}
 
@@ -90,7 +109,7 @@ class FileExporterHooks {
 	 * @param array $tags
 	 * @param User|null $user
 	 */
-	public static function onChangeTagsAllowedAdd( array &$allowedTags, array $tags, User $user = null ) {
+	public function onChangeTagsAllowedAdd( &$allowedTags, $tags, $user ) {
 		$allowedTags[] = 'fileimporter-remote';
 	}
 

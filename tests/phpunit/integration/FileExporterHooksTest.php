@@ -24,7 +24,7 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 	}
 
 	/**
-	 * @covers ::onSkinTemplateNavigation
+	 * @covers ::onSkinTemplateNavigation__Universal
 	 */
 	public function testOnSkinTemplateNavigation_isNewbie() {
 		$title = Title::makeTitle( NS_FILE, __CLASS__ . mt_rand() );
@@ -37,13 +37,13 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 		);
 
 		$links = [];
-		FileExporterHooks::onSkinTemplateNavigation( $skinTemplate, $links );
+		( new FileExporterHooks )->onSkinTemplateNavigation__Universal( $skinTemplate, $links );
 
 		$this->assertSame( [], $links );
 	}
 
 	/**
-	 * @covers ::onSkinTemplateNavigation
+	 * @covers ::onSkinTemplateNavigation__Universal
 	 */
 	public function testOnSkinTemplateNavigation_nonexistingPage() {
 		$title = Title::makeTitle( NS_FILE, __METHOD__ . mt_rand() );
@@ -58,7 +58,7 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 		$links = [
 			'views' => [],
 		];
-		FileExporterHooks::onSkinTemplateNavigation( $mockSkinTemplate, $links );
+		( new FileExporterHooks )->onSkinTemplateNavigation__Universal( $mockSkinTemplate, $links );
 
 		$this->assertArrayNotHasKey( 'fileExporter', $links['views'] );
 	}
@@ -73,7 +73,7 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 
 	/**
 	 * @dataProvider provideOnSkinTemplateNavigation_success
-	 * @covers ::onSkinTemplateNavigation
+	 * @covers ::onSkinTemplateNavigation__Universal
 	 * @covers ::getExportButtonLabel
 	 */
 	public function testOnSkinTemplateNavigation_success( string $server ) {
@@ -92,7 +92,7 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 		$this->getExistingTestPage( $title );
 
 		$links = [];
-		FileExporterHooks::onSkinTemplateNavigation( $skinTemplate, $links );
+		( new FileExporterHooks )->onSkinTemplateNavigation__Universal( $skinTemplate, $links );
 
 		$this->assertNotEmpty( $links );
 		$localFileUrl = $title->getFullURL( '', false, PROTO_CANONICAL );

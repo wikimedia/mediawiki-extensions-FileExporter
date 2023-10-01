@@ -29,10 +29,15 @@
 		}
 	},
 	"Hooks": {
-		"ChangeTagsAllowedAdd": "FileExporter\\FileExporterHooks::onChangeTagsAllowedAdd",
-		"ChangeTagsListActive": "FileExporter\\FileExporterHooks::onListDefinedTags",
-		"SkinTemplateNavigation::Universal": "FileExporter\\FileExporterHooks::onSkinTemplateNavigation",
-		"ListDefinedTags": "FileExporter\\FileExporterHooks::onListDefinedTags"
+		"ChangeTagsAllowedAdd": "main",
+		"ChangeTagsListActive": "main",
+		"SkinTemplateNavigation::Universal": "main",
+		"ListDefinedTags": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "FileExporter\\FileExporterHooks"
+		}
 	},
 	"AutoloadNamespaces": {
 		"FileExporter\\": "src/"
