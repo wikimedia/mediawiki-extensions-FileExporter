@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"BadDog"
+			"BadDog",
+			"Milicevic01"
 		]
 	},
 	"fileexporter": "Извозник датотека",
 	"fileexporter-desc": "Једноставан извоз датотека на други пројекат",
 	"fileexporter-text": "Извези датотеку",
-	"fileexporter-to-wikimedia-commons": "Извези на Оставу"
+	"fileexporter-to-wikimedia-commons": "Извези на Оставу",
+	"tag-fileimporter-remote": "уређено помоћу Увозника датотека"
 }
