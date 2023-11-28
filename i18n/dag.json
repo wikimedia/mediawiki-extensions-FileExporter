@@ -6,5 +6,7 @@
 	},
 	"fileexporter-desc": "Alaha n-nyɛ li zaŋ chaŋ mazagaya zaŋ kpɛhi wiki shɛli ni",
 	"fileexporter-text": "Kpɛhimi mazagali",
-	"fileexporter-to-wikimedia-commons": "Zaŋ kpɛhi Wikipedia di gbuɣi la ni"
+	"fileexporter-to-wikimedia-commons": "Zaŋ kpɛhi Wikipedia di gbuɣi la ni",
+	"tag-fileimporter-remote": "Faali shɛŋa din yiri tiŋgban' shɛŋa ni na taɣiya biɛla",
+	"tag-fileimporter-remote-description": "Maliniŋ maa niŋ la [[mw:Extension:FileImporter|FileImporter]] pahibu ni niŋ di niŋ ka nasara yi kana ka faali yi wiki ŋɔ ni."
 }
