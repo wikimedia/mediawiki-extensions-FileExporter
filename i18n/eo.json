@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mirin"
+			"Mirin",
+			"Ziko"
 		]
 	},
 	"fileexporter": "DosierElportilo",
 	"fileexporter-desc": "Facila elportado de dosieroj en alian vikion",
 	"fileexporter-text": "Elporti dosieron",
 	"fileexporter-to-wikimedia-commons": "Elporti al Vikimedia Komunejo",
-	"fileexporter-to-test": "Elporti al Testa Vikio"
+	"fileexporter-to-test": "Elporti al Testa Vikio",
+	"tag-fileimporter-remote": "Modifita de FileImporter",
+	"tag-fileimporter-remote-description": "Redaktoj faritaj de la etendaĵo [[mw:Extension:FileImporter|FileImporter]], post ke dosiero estis sukcese importita el ĉi tiu vikio."
 }
