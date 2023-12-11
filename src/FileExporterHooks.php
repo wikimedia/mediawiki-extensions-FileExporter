@@ -7,11 +7,12 @@ namespace FileExporter;
 use MediaWiki\ChangeTags\Hook\ChangeTagsAllowedAddHook;
 use MediaWiki\ChangeTags\Hook\ChangeTagsListActiveHook;
 use MediaWiki\ChangeTags\Hook\ListDefinedTagsHook;
+use MediaWiki\Config\ConfigException;
 use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\User\User;
 use Message;
 use SkinTemplate;
-use User;
 
 /**
  * @license GPL-2.0-or-later
@@ -49,7 +50,7 @@ class FileExporterHooks implements
 
 		$target = $config->get( 'FileExporterTarget' );
 		if ( !$target ) {
-			throw new \ConfigException( '$wgFileExporterTarget doesn\'t have a default, please set your own' );
+			throw new ConfigException( '$wgFileExporterTarget doesn\'t have a default, please set your own' );
 		}
 		$parsedUrl = wfParseUrl( $target );
 		$query = wfCgiToArray( $parsedUrl['query'] ?? '' );

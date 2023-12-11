@@ -3,12 +3,12 @@
 namespace MediaWiki\Extension\FileExporter\Tests;
 
 use FileExporter\FileExporterHooks;
-use HashConfig;
 use IContextSource;
+use MediaWiki\Config\HashConfig;
 use MediaWiki\Title\Title;
+use MediaWiki\User\User;
 use MediaWikiIntegrationTestCase;
 use SkinTemplate;
-use User;
 
 /**
  * @group Database
