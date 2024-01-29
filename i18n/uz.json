@@ -8,5 +8,5 @@
 	"fileexporter-to-wikimedia-commons": "Vikiomborga eksport qilish",
 	"fileexporter-to-test": "Test Vikiga eksport qilish",
 	"tag-fileimporter-remote": "FileImporter tomonidan oʻzgartirildi",
-	"tag-fileimporter-remote-description": "Bu vikidan fayl muvaffaqiyatli import qilinganidan keyin [[mw:Extension:FileImporter|FileImporter]] kengaytmasi orqali qilingan tahrirlar."
+	"tag-fileimporter-remote-description": "Ushbu vikidan faylni muvaffaqiyatli import qilgandan keyin [[mw:Extension:FileImporter|FileImporter]] kengaytmasi tomonidan qilingan tahrirlar."
 }
