@@ -4,5 +4,6 @@
 			"Joao Xavier"
 		]
 	},
-	"fileexporter": "FileExporter"
+	"fileexporter": "FileExporter",
+	"tag-fileimporter-remote-description": "Redakturi facita per utensilo [[mw:Extension:FileImporter|FileImporter]], pos sucesoze importacar arkivo de ca wiki."
 }
