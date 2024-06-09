@@ -3,8 +3,8 @@
 namespace MediaWiki\Extension\FileExporter\Tests;
 
 use FileExporter\FileExporterHooks;
-use IContextSource;
 use MediaWiki\Config\HashConfig;
+use MediaWiki\Context\IContextSource;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
 use MediaWikiIntegrationTestCase;
