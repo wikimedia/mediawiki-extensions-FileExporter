@@ -5,6 +5,7 @@ namespace MediaWiki\Extension\FileExporter\Tests;
 use FileExporter\FileExporterHooks;
 use MediaWiki\Config\HashConfig;
 use MediaWiki\Context\IContextSource;
+use MediaWiki\MainConfigNames;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
 use MediaWikiIntegrationTestCase;
@@ -77,7 +78,7 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 	 * @covers ::getExportButtonLabel
 	 */
 	public function testOnSkinTemplateNavigation_success( string $server ) {
-		$this->setMwGlobals( [ [ 'wgServer' => $server ] ] );
+		$this->overrideConfigValue( MainConfigNames::Server, $server );
 
 		$title = Title::makeTitle( NS_FILE, __CLASS__ . mt_rand() );
 
