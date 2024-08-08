@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyscowicz"
+			"Pyscowicz",
+			"Samoasambia"
 		]
 	},
 	"fileexporter": "Tiedostoviejä",
 	"fileexporter-desc": "Tiedostojen helppo vienti toiseen wikiin",
 	"fileexporter-text": "Vie tiedosto",
-	"fileexporter-to-wikimedia-commons": "Vie Wikimedia Commonsiin"
+	"fileexporter-to-wikimedia-commons": "Vie Wikimedia Commonsiin",
+	"tag-fileimporter-remote": "Tiedostoviejän muokkaama",
+	"tag-fileimporter-remote-description": "[[mw:Extension:FileImporter|Tiedostoviejä]]-laajennuksen tekemät muokkaukset sen jälkeen, kun tiedosto tuotiin tästä wikistä onnistuneesti."
 }
