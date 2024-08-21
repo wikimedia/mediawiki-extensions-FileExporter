@@ -2,11 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Banjo",
-			"Elisardojm"
+			"Elisardojm",
+			"Toliño"
 		]
 	},
 	"fileexporter": "Exportador de ficheiros",
 	"fileexporter-desc": "Exportación sinxela de ficheiros a outro wiki",
 	"fileexporter-text": "Exportar ficheiro",
-	"fileexporter-to-wikimedia-commons": "Exportar a Wikimedia Commons"
+	"fileexporter-to-wikimedia-commons": "Exportar a Wikimedia Commons",
+	"tag-fileimporter-remote": "Modificado por FileImporter",
+	"tag-fileimporter-remote-description": "As edicións realizadas pola extensión [[mw:Extension:FileImporter|FileImporter]] despois de importar correctamente un ficheiro deste wiki."
 }
