@@ -52,7 +52,7 @@ class FileExporterHooks implements
 		if ( !$target ) {
 			throw new ConfigException( '$wgFileExporterTarget doesn\'t have a default, please set your own' );
 		}
-		$parsedUrl = wfParseUrl( $target );
+		$parsedUrl = wfGetUrlUtils()->parse( (string)$target );
 		$query = wfCgiToArray( $parsedUrl['query'] ?? '' );
 		$query['clientUrl'] = $title->getFullURL( '', false, PROTO_CANONICAL );
 
