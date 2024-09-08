@@ -43,7 +43,8 @@ class FileExporterHooks implements
 			return;
 		}
 
-		$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
+		$services = MediaWikiServices::getInstance();
+		$page = $services->getWikiPageFactory()->newFromTitle( $title );
 		if ( !$page->isLocal() ) {
 			return;
 		}
@@ -52,7 +53,8 @@ class FileExporterHooks implements
 		if ( !$target ) {
 			throw new ConfigException( '$wgFileExporterTarget doesn\'t have a default, please set your own' );
 		}
-		$parsedUrl = wfGetUrlUtils()->parse( (string)$target );
+		$urlUtils = $services->getUrlUtils();
+		$parsedUrl = $urlUtils->parse( (string)$target );
 		$query = wfCgiToArray( $parsedUrl['query'] ?? '' );
 		$query['clientUrl'] = $title->getFullURL( '', false, PROTO_CANONICAL );
 
