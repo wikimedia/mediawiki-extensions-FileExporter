@@ -12,6 +12,7 @@ use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Message\Message;
 use MediaWiki\User\User;
+use MediaWiki\Utils\UrlUtils;
 use SkinTemplate;
 
 /**
@@ -63,7 +64,7 @@ class FileExporterHooks implements
 		$query['importSource'] = 'FileExporter';
 
 		$parsedUrl['query'] = wfArrayToCgi( $query );
-		$targetUrl = wfAssembleUrl( $parsedUrl );
+		$targetUrl = UrlUtils::assemble( $parsedUrl );
 
 		$links['views']['fileExporter'] = [
 			'class' => '',
