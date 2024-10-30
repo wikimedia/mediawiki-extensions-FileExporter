@@ -111,7 +111,7 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 	 * @param Title|null $title
 	 * @return SkinTemplate
 	 */
-	private function createSkinTemplate( array $config, User $user, Title $title = null ) {
+	private function createSkinTemplate( array $config, User $user, ?Title $title = null ) {
 		$context = $this->createMock( IContextSource::class );
 		$context->method( 'getConfig' )->willReturn( new HashConfig( $config ) );
 		$context->method( 'getUser' )->willReturn( $user );
