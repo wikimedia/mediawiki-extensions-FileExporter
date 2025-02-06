@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Hedda",
-			"MuratTheTurkish"
+			"MuratTheTurkish",
+			"Leo"
 		]
 	},
 	"fileexporter": "DosyaAktarıcı",
@@ -10,5 +11,5 @@
 	"fileexporter-text": "Dosyayı dışa aktar",
 	"fileexporter-to-wikimedia-commons": "Wikimedia Commons'a dışa aktar",
 	"tag-fileimporter-remote": "FileImporter tarafından değiştirildi",
-	"tag-fileimporter-remote-description": "Bu vikiden bir dosyayı başarıyla içe aktardıktan sonra [[mw:Extension:FileImporter|FileImporter]] uzantısı tarafından yapılan düzenlemeler."
+	"tag-fileimporter-remote-description": "Bu vikiden bir dosya başarıyla içe aktarıldıktan sonra [[mw:Extension:FileImporter|FileImporter]] uzantısı tarafından yapılan düzenlemeler."
 }
