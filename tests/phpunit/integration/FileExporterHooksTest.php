@@ -6,10 +6,10 @@ use FileExporter\FileExporterHooks;
 use MediaWiki\Config\HashConfig;
 use MediaWiki\Context\IContextSource;
 use MediaWiki\MainConfigNames;
+use MediaWiki\Skin\SkinTemplate;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
 use MediaWikiIntegrationTestCase;
-use SkinTemplate;
 
 /**
  * @group Database

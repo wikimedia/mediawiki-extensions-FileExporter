@@ -11,9 +11,9 @@ use MediaWiki\Config\ConfigException;
 use MediaWiki\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Message\Message;
+use MediaWiki\Skin\SkinTemplate;
 use MediaWiki\User\User;
 use MediaWiki\Utils\UrlUtils;
-use SkinTemplate;
 
 /**
  * @license GPL-2.0-or-later
