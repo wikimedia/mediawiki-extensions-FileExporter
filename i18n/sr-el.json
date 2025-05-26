@@ -5,5 +5,6 @@
 	"fileexporter": "Izvoznik datoteka",
 	"fileexporter-desc": "Jednostavan izvoz datoteka na drugi projekat",
 	"fileexporter-text": "Izvezi datoteku",
-	"fileexporter-to-wikimedia-commons": "Izvezi na Ostavu"
+	"fileexporter-to-wikimedia-commons": "Izvezi na Ostavu",
+	"tag-fileimporter-remote": "uređeno pomoću Uvoznika datoteka"
 }
