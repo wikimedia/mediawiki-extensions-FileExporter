@@ -7,5 +7,6 @@
 	"fileexporter": "FileExporter",
 	"fileexporter-desc": "Кхечу вики чу файлаш экспорт",
 	"fileexporter-text": "Файл импортйан",
-	"fileexporter-to-wikimedia-commons": "Викиларме экспорт"
+	"fileexporter-to-wikimedia-commons": "Викиларме экспорт",
+	"tag-fileimporter-remote": "FileImporter гӀоьнца хийцина"
 }
