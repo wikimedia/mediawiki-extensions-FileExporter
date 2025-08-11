@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ktchankt"
+		]
+	},
+	"tag-fileimporter-remote": "FileImporter做嘅改動",
+	"tag-fileimporter-remote-description": "用[[mw:Extension:FileImporter|FileImporter]]功能由呢個wiki成功匯入檔案所做嘅編輯"
+}
