@@ -9,5 +9,6 @@
 	"fileexporter-text": "Файл импортйан",
 	"fileexporter-to-wikimedia-commons": "Викиларме экспорт",
 	"fileexporter-to-test": "Тестан вики чу экспорт",
-	"tag-fileimporter-remote": "FileImporter гӀоьнца хийцина"
+	"tag-fileimporter-remote": "FileImporter гӀоьнца хийцина",
+	"tag-fileimporter-remote-description": "[[mw:Extension:FileImporter|FileImporter]] шордарца бина хийцамаш, кхечу вики тӀера файл кхиамца чуйаьккхинчул тӀаьхьа."
 }
