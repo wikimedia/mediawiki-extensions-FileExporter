@@ -7,5 +7,6 @@
 	},
 	"fileexporter-desc": "Лесно изнасяне на файлове към друго уики",
 	"fileexporter-text": "Изнасяне на файл",
-	"fileexporter-to-wikimedia-commons": "Изнасяне към Общомедия"
+	"fileexporter-to-wikimedia-commons": "Изнасяне към Общомедия",
+	"tag-fileimporter-remote": "Променено чрез FileImporter"
 }
