@@ -1,7 +1,5 @@
 <?php
 
-// phpcs:disable MediaWiki.NamingConventions.LowerCamelFunctionsName.FunctionName
-
 namespace FileExporter;
 
 use MediaWiki\ChangeTags\Hook\ChangeTagsAllowedAddHook;
