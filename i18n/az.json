@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Toghrul Rahimli",
-			"Nemoralis"
+			"Nemoralis",
+			"Gadir"
 		]
 	},
 	"fileexporter": "Fayl ixracatçısı",
 	"fileexporter-desc": "Faylların başqa vikiyə asanlıqla ixracı",
 	"fileexporter-text": "Faylı ixrac et",
 	"fileexporter-to-wikimedia-commons": "Vikianbara ixrac et",
-	"tag-fileimporter-remote": "FileImporter tərəfindən redaktə edilib",
+	"tag-fileimporter-remote": "FileImporter vasitəsilə redaktə edilib",
 	"tag-fileimporter-remote-description": "Bu vikidən fayl uğurla idxal edildikdən sonra [[mw:Extension:FileImporter|FileImporter]] uzantısı tərəfindən edilən redaktələr."
 }
