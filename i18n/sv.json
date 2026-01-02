@@ -11,5 +11,5 @@
 	"fileexporter-text": "Exportera fil",
 	"fileexporter-to-wikimedia-commons": "Exportera till Wikimedia Commons",
 	"tag-fileimporter-remote": "Modifierad av FileImporter",
-	"tag-fileimporter-remote-description": "Redigeringar gjorda av [mw:Extension:FileImporter|FileImporter]] filändelsen efter att en fil har importerats från denna wiki."
+	"tag-fileimporter-remote-description": "Redigeringar gjorda av tillägget [[mw:Extension:FileImporter|FileImporter]] efter att en fil har importerats från denna wiki."
 }
