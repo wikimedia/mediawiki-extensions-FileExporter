@@ -2,11 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Sabelöga",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Stefan2255"
 		]
 	},
 	"fileexporter": "Filexporterare",
 	"fileexporter-desc": "Enkel exportering av filer till en annan wiki",
 	"fileexporter-text": "Exportera fil",
-	"fileexporter-to-wikimedia-commons": "Exportera till Wikimedia Commons"
+	"fileexporter-to-wikimedia-commons": "Exportera till Wikimedia Commons",
+	"tag-fileimporter-remote": "Modifierad av FileImporter",
+	"tag-fileimporter-remote-description": "Redigeringar gjorda av tillägget [[mw:Extension:FileImporter|FileImporter]] efter att en fil har importerats från denna wiki."
 }
