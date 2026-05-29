@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"fileexporter-desc": "Dhoofin fudud oo faylal ah oo loo diro wiki kale.",
+	"fileexporter-text": "Faylka dhoofinta",
+	"fileexporter-to-wikimedia-commons": "U dhoofi Wikimedia Commons",
+	"tag-fileimporter-remote": "Waxaa wax ka beddelay FileImporter",
+	"tag-fileimporter-remote-description": "Tafatirro uu sameeyay kordhinta [[mw:Extension:FileImporter|FileImporter]] ka dib markii si guul leh looga soo dhoofiyay fayl wiki-kan."
+}
