@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Mainframe98",
-			"McDutchie"
+			"McDutchie",
+			"Siebrand"
 		]
 	},
 	"fileexporter-desc": "Eenvoudig bestanden naar een andere wiki exporteren",
 	"fileexporter-text": "Bestand exporteren",
 	"fileexporter-to-wikimedia-commons": "Naar Wikimedia Commons exporteren",
 	"tag-fileimporter-remote": "Gewijzigd door FileImporter",
-	"tag-fileimporter-remote-description": "Bewerkingen gemaakt door de extensie [[mw:Extension:FileImporter|FileImporter]] na het succesvol importeren van een bestand uit deze wiki."
+	"tag-fileimporter-remote-description": "Bewerkingen gemaakt door de uitbreiding [[mw:Extension:FileImporter|FileImporter]] na het importeren van een bestand uit deze wiki."
 }
