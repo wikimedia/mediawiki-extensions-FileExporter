@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vegetator"
+			"Vegetator",
+			"Wizzard"
 		]
 	},
 	"fileexporter": "Exportér súborov",
 	"fileexporter-desc": "Jednoduché exportovanie súborov na inú wiki",
 	"fileexporter-text": "Exportovať súbor",
-	"fileexporter-to-wikimedia-commons": "Exportovať na Wikimedia Commons"
+	"fileexporter-to-wikimedia-commons": "Exportovať na Wikimedia Commons",
+	"tag-fileimporter-remote": "Upravené rozšírením FileImporter",
+	"tag-fileimporter-remote-description": "Úpravy vykonané rozšírením [[mw:Extension:FileImporter|FileImporter]] po úspešnom importe súboru z tejto wiki."
 }
