@@ -24,6 +24,14 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 		$this->setUserLang( 'qqx' );
 	}
 
+	private function newInstance(): FileExporterHooks {
+		$services = $this->getServiceContainer();
+		return new FileExporterHooks(
+			$services->getWikiPageFactory(),
+			$services->getUrlUtils(),
+		);
+	}
+
 	/**
 	 * @covers ::onSkinTemplateNavigation__Universal
 	 */
@@ -38,7 +46,7 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 		);
 
 		$links = [];
-		( new FileExporterHooks )->onSkinTemplateNavigation__Universal( $skinTemplate, $links );
+		$this->newInstance()->onSkinTemplateNavigation__Universal( $skinTemplate, $links );
 
 		$this->assertSame( [], $links );
 	}
@@ -59,7 +67,7 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 		$links = [
 			'views' => [],
 		];
-		( new FileExporterHooks )->onSkinTemplateNavigation__Universal( $mockSkinTemplate, $links );
+		$this->newInstance()->onSkinTemplateNavigation__Universal( $mockSkinTemplate, $links );
 
 		$this->assertArrayNotHasKey( 'fileExporter', $links['views'] );
 	}
@@ -93,7 +101,7 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 		$this->getExistingTestPage( $title );
 
 		$links = [];
-		( new FileExporterHooks )->onSkinTemplateNavigation__Universal( $skinTemplate, $links );
+		$this->newInstance()->onSkinTemplateNavigation__Universal( $skinTemplate, $links );
 
 		$this->assertNotEmpty( $links );
 		$localFileUrl = $title->getFullURL( '', false, PROTO_CANONICAL );

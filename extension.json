@@ -35,7 +35,11 @@
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "FileExporter\\FileExporterHooks"
+			"class": "FileExporter\\FileExporterHooks",
+			"services": [
+				"WikiPageFactory",
+				"UrlUtils"
+			]
 		}
 	},
 	"AutoloadNamespaces": {

@@ -6,8 +6,8 @@ use MediaWiki\ChangeTags\Hook\ChangeTagsAllowedAddHook;
 use MediaWiki\ChangeTags\Hook\ChangeTagsListActiveHook;
 use MediaWiki\ChangeTags\Hook\ListDefinedTagsHook;
 use MediaWiki\Config\ConfigException;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Message\Message;
+use MediaWiki\Page\WikiPageFactory;
 use MediaWiki\Skin\Hook\SkinTemplateNavigation__UniversalHook;
 use MediaWiki\Skin\SkinTemplate;
 use MediaWiki\User\User;
@@ -23,6 +23,12 @@ class FileExporterHooks implements
 	SkinTemplateNavigation__UniversalHook,
 	ListDefinedTagsHook
 {
+
+	public function __construct(
+		private readonly WikiPageFactory $wikiPageFactory,
+		private readonly UrlUtils $urlUtils,
+	) {
+	}
 
 	/**
 	 * @param SkinTemplate $skinTemplate
@@ -42,8 +48,7 @@ class FileExporterHooks implements
 			return;
 		}
 
-		$services = MediaWikiServices::getInstance();
-		$page = $services->getWikiPageFactory()->newFromTitle( $title );
+		$page = $this->wikiPageFactory->newFromTitle( $title );
 		if ( !$page->isLocal() ) {
 			return;
 		}
@@ -52,8 +57,7 @@ class FileExporterHooks implements
 		if ( !$target ) {
 			throw new ConfigException( '$wgFileExporterTarget doesn\'t have a default, please set your own' );
 		}
-		$urlUtils = $services->getUrlUtils();
-		$parsedUrl = $urlUtils->parse( (string)$target );
+		$parsedUrl = $this->urlUtils->parse( (string)$target );
 		$query = wfCgiToArray( $parsedUrl['query'] ?? '' );
 		$query['clientUrl'] = $title->getFullURL( '', false, PROTO_CANONICAL );
 
