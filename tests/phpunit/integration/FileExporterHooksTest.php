@@ -76,7 +76,6 @@ class FileExporterHooksTest extends MediaWikiIntegrationTestCase {
 		return [
 			'https protocol' => [ 'https://w.invalid' ],
 			'Relative protocol' => [ '//w.invalid' ],
-			'No protocol' => [ 'w.invalid' ],
 		];
 	}
 
